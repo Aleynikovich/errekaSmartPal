@@ -41,42 +41,8 @@ DEF  SPS ( )
   LOOP
 
      WAIT FOR NOT($POWER_FAIL)
-    ;FOLD ARC20 PLC;%{E}%V3.2.0,%MKUKATPA20,%CSPS,%VSPS,%P
-    IF ((ARC20==TRUE) AND (A10_OPTION==#DISABLED)) THEN
-      A20_TECH ( )
-    ENDIF
-    ;ENDFOLD (ARC20 PLC)
-    ;FOLD TOUCH PLC;%{E}%V3.2.0,%MKUKATPTS,%CSPS,%VSPS,%P
-    IF H70_OPTION THEN
-      IF ( NOT ($PRO_ACT) AND FG_ON_WORK AND ($OV_PRO==0)) THEN
-        IF (TOUCH_ACTIVE>0) AND (TOUCH_ACTIVE<5) THEN
-          IF TOUCH_O[TOUCH_ACTIVE].OUT_NR>0 THEN
-            $OUT[TOUCH_O[TOUCH_ACTIVE].OUT_NR]=FALSE
-          ENDIF
-        ENDIF
-        NOTAUS_TOUCH=TRUE ; error flag 
-        $OV_PRO=OV_PRO_OLD
-      ENDIF
-    ENDIF
-    ;ENDFOLD (TOUCH PLC)
-    ;FOLD GRP PLC;%{E}%V3.2.0,%MKUKATPGRP,%CSPS,%VSPS,%P
-    IF (ZANGEN_FUNKT>0) THEN
-      H50 (5,AKT_ZANGE,DUMMY,GDEFAULT )
-      ZANGEN_FUNKT=0
-    ENDIF
-    ;ENDFOLD (GRP PLC)
-    ;FOLD SPOT PLC;%{E}%V3.2.0,%MKUKATPSPOT,%CSPS,%VSPS,%P
-    ;Make your modifications here
 
-    ;ENDFOLD (SPOT PLC)
-    ;FOLD USER PLC;%{E}%V3.2.0,%MKUKATPUSER,%CSPS,%VSPS,%P
-    ;Make your modifications here
-;if (($aut) AND ($OV_PRO>30)) then
-; $ov_pro=30
-;endif
-
-
-    ;ENDFOLD (USER PLC)
+;ENDFOLD (USER PLC)
 
 IF InFinCiclo THEN
  bParadaManiobra=TRUE
@@ -160,12 +126,6 @@ $out[83]=$in[70] ;envio aire OK a PLC
   ;FOLD
 END
 ;ENDFOLD
-
-DEF  A20_TECH ( )
-  IF ($PRO_STATE1==#P_STOP) THEN
-    A20 (TECH_STOP )
-  ENDIF
-END
 
 DEF  RESET_OUT ( )
   INT N

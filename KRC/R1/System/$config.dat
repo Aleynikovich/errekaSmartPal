@@ -341,64 +341,6 @@ DECL INT CAL_AXIS
 BOOL CONST_SPEED
 
 ;******************************************
-; Variables for added TechPackages
-;******************************************
-ENUM A_BOOL_T ACTIVE,IDLE
-ENUM A_FG_TYPE FG_MECHANIC,FG_THERMAL
-
-DECL A_BOOL_T A_HOT_WELD=#IDLE ; Status of HPU Weld key
-DECL A_BOOL_T A_HPU_DRY_RN=#IDLE ; DRY_RUN functionality
-INT A_HPU_WFD=0
-
-DECL A_BOOL_T A_OLD_WELD=#ACTIVE ; PLC control  status of change
-DECL A_BOOL_T A_ISR_ACTION=#ACTIVE ; PLC control  like a busy flag 
-
-BOOL ANA_CLC_ON=TRUE
-BOOL PROC_IN_T1=FALSE
-BOOL PROC_ENABLE=TRUE
-BOOL TECH_MOTION=FALSE ; flag for technology motions
-
-REAL A_AP_DIS_TCH=5.0 ; ARCTECH specified rough positioning parameter
-REAL DRY_RN_VEL=0.150000006
-
-INT MAX_RETRY=3
-INT MAX_ERROR=5
-INT RETRY_COUNT=0
-INT ERROR_COUNT=0
-INT POWER
-;******************************************
-; Variables Tool Correction
-;******************************************
-BOOL FLAG=FALSE
-INT MAX_CRASH=5
-
-;External for weaving-generator
-EXT  WEAV_DEF (A_FG_TYPE  :IN,INT  :IN,INT  :IN,INT  :IN,INT  :IN )
-
-;******************************************
-; Variables for Displaying and Konfiguring
-;******************************************
-DECL INT I[10]
-
-I[1]=1
-I[2]=0
-I[3]=0
-I[4]=0
-I[5]=0
-I[6]=0
-I[7]=0
-I[8]=0
-I[9]=0
-I[10]=0
-
-;******************************************
-; all for UserStatKeys
-;******************************************
-ENUM COMMAND OPN,CLO
-INT ZANGEN_FUNKT=0
-INT AKT_ZANGE=1
-
-;******************************************
 ; all for InterBus Mapping on optional segments
 ;******************************************
 
