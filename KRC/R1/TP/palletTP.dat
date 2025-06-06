@@ -1,20 +1,109 @@
 DEFDAT palletTP PUBLIC
-;Pallet technology package vars
-;Customer: Erreka S.Coop
-;Programmer: Alexander Kalis - Tekniker
-;Project H118 - Erreka Smart Pal
-;Date: 26/05/2025
+
+;===========================================;
+;   Pallet technology package vars          ;
+;   Customer: Erreka S.Coop                 ;
+;   Programmer: Alexander Kalis - Tekniker  ;
+;   Project H118 - Erreka Smart Pal         ;
+;   Date: 26/05/2025                        ;
+;===========================================;
+
+
+;Local vars
+INT maxStringSize = 32
 
 ;Global ENUMS
 GLOBAL  ENUM    E_SCREW_CATEGORY  Hex, Rod
 
 ;Global classes
-GLOBAL  STRUC   S_ROBOT_CLASS     INT ID                              CHAR name[24],     BOOL isInPickPos     
-GLOBAL  STRUC   S_PALLET_CLASS    INT ID, MAX_PIECES,                 CHAR name[24],     BOOL isFull                                        REAL dimX, dimY, dimZ 
-GLOBAL  STRUC   S_SCREW_CLASS     INT ID,                             CHAR name[24],     SCREW_CATEGORY screwCategory                       REAL diameter, lenght, headWidth, threadDiameter, weight
-GLOBAL  STRUC   S_GRIPPER_CLASS   INT ID, openOutput, closeOutput     CHAR name[24],     BOOL isOpen, isClosed, isGripping, close, open     REAL weight
+GLOBAL  STRUC   S_RECIPE_CLASS      INT ID, execNumber                  CHAR name[maxStringSize],                                                        REAL runTime
+GLOBAL  STRUC   S_ROBOT_CLASS       INT ID                              CHAR name[maxStringSize],     BOOL isInPickPos     
+GLOBAL  STRUC   S_PALLET_CLASS      INT ID, MAX_PIECES,                 CHAR name[maxStringSize],     BOOL isFull                                        REAL dimX, dimY, dimZ 
+GLOBAL  STRUC   S_SCREW_CLASS       INT ID,                             CHAR name[maxStringSize],     SCREW_CATEGORY screwCategory                       REAL diameter, lenght, headWidth, threadDiameter, weight
+GLOBAL  STRUC   S_GRIPPER_CLASS     INT ID, openOutput, closeOutput     CHAR name[maxStringSize],     BOOL isOpen, isClosed, isGripping, close, open     REAL weight
+
+;Global class declarations
+
+GLOBAL DECL S_RECIPE_CLASS[32]
+S_RECIPE_CLASS[1]   =   {ID 1, execNumber 0, name "Receta 1", runTime 0.0}
+S_RECIPE_CLASS[2]   =   {ID 2, execNumber 0, name "Receta 2", runTime 0.0}
+S_RECIPE_CLASS[3]   =   {ID 3, execNumber 0, name "Receta 3", runTime 0.0}
+S_RECIPE_CLASS[4]   =   {ID 4, execNumber 0, name "Receta 4", runTime 0.0}
+S_RECIPE_CLASS[5]   =   {ID 5, execNumber 0, name "Receta 5", runTime 0.0}
+S_RECIPE_CLASS[6]   =   {ID 6, execNumber 0, name "Receta 6", runTime 0.0}
+S_RECIPE_CLASS[7]   =   {ID 7, execNumber 0, name "Receta 7", runTime 0.0}
+S_RECIPE_CLASS[8]   =   {ID 8, execNumber 0, name "Receta 8", runTime 0.0}
+S_RECIPE_CLASS[9]   =   {ID 9, execNumber 0, name "Receta 9", runTime 0.0}
+S_RECIPE_CLASS[10]  =   {ID 10, execNumber 0, name "Receta 10", runTime 0.0}
+S_RECIPE_CLASS[11]  =   {ID 11, execNumber 0, name "Receta 11", runTime 0.0}
+S_RECIPE_CLASS[12]  =   {ID 12, execNumber 0, name "Receta 12", runTime 0.0}
+S_RECIPE_CLASS[13]  =   {ID 13, execNumber 0, name "Receta 13", runTime 0.0}
+S_RECIPE_CLASS[14]  =   {ID 14, execNumber 0, name "Receta 14", runTime 0.0}
+S_RECIPE_CLASS[15]  =   {ID 15, execNumber 0, name "Receta 15", runTime 0.0}
+S_RECIPE_CLASS[16]  =   {ID 16, execNumber 0, name "Receta 16", runTime 0.0}
+S_RECIPE_CLASS[17]  =   {ID 17, execNumber 0, name "Receta 17", runTime 0.0}
+S_RECIPE_CLASS[18]  =   {ID 18, execNumber 0, name "Receta 18", runTime 0.0}
+S_RECIPE_CLASS[19]  =   {ID 19, execNumber 0, name "Receta 19", runTime 0.0}
+S_RECIPE_CLASS[20]  =   {ID 20, execNumber 0, name "Receta 20", runTime 0.0}
+S_RECIPE_CLASS[21]  =   {ID 21, execNumber 0, name "Receta 21", runTime 0.0}
+S_RECIPE_CLASS[22]  =   {ID 22, execNumber 0, name "Receta 22", runTime 0.0}
+S_RECIPE_CLASS[23]  =   {ID 23, execNumber 0, name "Receta 23", runTime 0.0}
+S_RECIPE_CLASS[24]  =   {ID 24, execNumber 0, name "Receta 24", runTime 0.0}
+S_RECIPE_CLASS[25]  =   {ID 25, execNumber 0, name "Receta 25", runTime 0.0}
+S_RECIPE_CLASS[26]  =   {ID 26, execNumber 0, name "Receta 26", runTime 0.0}
+S_RECIPE_CLASS[27]  =   {ID 27, execNumber 0, name "Receta 27", runTime 0.0}
+S_RECIPE_CLASS[28]  =   {ID 28, execNumber 0, name "Receta 28", runTime 0.0}
+S_RECIPE_CLASS[29]  =   {ID 29, execNumber 0, name "Receta 29", runTime 0.0}
+S_RECIPE_CLASS[30]  =   {ID 30, execNumber 0, name "Receta 30", runTime 0.0}
+S_RECIPE_CLASS[31]  =   {ID 31, execNumber 0, name "Receta 31", runTime 0.0}
+S_RECIPE_CLASS[32]  =   {ID 32, execNumber 0, name "Receta 32", runTime 0.0}
 
 
+GLOBAL DECL S_ROBOT_CLASS[1]
+S_ROBOT_CLASS[1]    =   {ID 1, name "RobotPrincipal", isInPickPos false}
+
+GLOBAL DECL S_PALLET_CLASS[2]
+S_PALLET_CLASS[1]   =   {ID 1, MAX_PIECES 0, name "Palet1", isFull false, dimX 0.0, dimY 0.0, dimZ 0.0}
+S_PALLET_CLASS[2]   =   {ID 2, MAX_PIECES 0, name "Palet2", isFull false, dimX 0.0, dimY 0.0, dimZ 0.0}
+
+GLOBAL DECL S_SCREW_CLASS[32]
+S_SCREW_CLASS[1]    =   {ID 1, name "Tornillo1", screwCategory Hex, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[2]    =   {ID 2, name "Tornillo2", screwCategory Rod, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[3]    =   {ID 3, name "Tornillo3", screwCategory Hex, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[4]    =   {ID 4, name "Tornillo4", screwCategory Rod, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[5]    =   {ID 5, name "Tornillo5", screwCategory Hex, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[6]    =   {ID 6, name "Tornillo6", screwCategory Rod, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[7]    =   {ID 7, name "Tornillo7", screwCategory Hex, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[8]    =   {ID 8, name "Tornillo8", screwCategory Rod, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[9]    =   {ID 9, name "Tornillo9", screwCategory Hex, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[10]   =   {ID 10, name "Tornillo10", screwCategory Rod, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[11]   =   {ID 11, name "Tornillo11", screwCategory Hex, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[12]   =   {ID 12, name "Tornillo12", screwCategory Rod, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[13]   =   {ID 13, name "Tornillo13", screwCategory Hex, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[14]   =   {ID 14, name "Tornillo14", screwCategory Rod, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[15]   =   {ID 15, name "Tornillo15", screwCategory Hex, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[16]   =   {ID 16, name "Tornillo16", screwCategory Rod, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[17]   =   {ID 17, name "Tornillo17", screwCategory Hex, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[18]   =   {ID 18, name "Tornillo18", screwCategory Rod, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[19]   =   {ID 19, name "Tornillo19", screwCategory Hex, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[20]   =   {ID 20, name "Tornillo20", screwCategory Rod, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[21]   =   {ID 21, name "Tornillo21", screwCategory Hex, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[22]   =   {ID 22, name "Tornillo22", screwCategory Rod, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[23]   =   {ID 23, name "Tornillo23", screwCategory Hex, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[24]   =   {ID 24, name "Tornillo24", screwCategory Rod, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[25]   =   {ID 25, name "Tornillo25", screwCategory Hex, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[26]   =   {ID 26, name "Tornillo26", screwCategory Rod, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[27]   =   {ID 27, name "Tornillo27", screwCategory Hex, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[28]   =   {ID 28, name "Tornillo28", screwCategory Rod, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[29]   =   {ID 29, name "Tornillo29", screwCategory Hex, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[30]   =   {ID 30, name "Tornillo30", screwCategory Rod, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[31]   =   {ID 31, name "Tornillo31", screwCategory Hex, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+S_SCREW_CLASS[32]   =   {ID 32, name "Tornillo32", screwCategory Rod, diameter 0.0, lenght 0.0, headWidth 0.0, threadDiameter 0.0, weight 0.0}
+
+
+GLOBAL DECL S_GRIPPER_CLASS[2]
+S_GRIPPER_CLASS[1]  =   {ID 1, openOutput 0, closeOutput 0, name "Pinza1", isOpen false, isClosed true, isGripping false, close false, open false, weight 0.0}
+S_GRIPPER_CLASS[2]  =   {ID 2, openOutput 0, closeOutput 0, name "Pinza2", isOpen false, isClosed true, isGripping false, close false, open false, weight 0.0}
 
 
 

@@ -42,7 +42,8 @@ DEF  SPS ( )
 
      WAIT FOR NOT($POWER_FAIL)
 
-
+    palletTP()
+    
     IF InFinCiclo THEN
     bParadaManiobra=TRUE
     ENDIF
