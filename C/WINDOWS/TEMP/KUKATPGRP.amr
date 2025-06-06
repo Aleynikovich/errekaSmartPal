@@ -1,0 +1,297 @@
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\WAIT_TIME]
+"Shortcut"="WAIT"
+"Min"="0"
+"Max"="10"
+"Step"="0.1"
+"Format"=""
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\CTRL]
+"Shortcut"="CHK"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\DELAY]
+"Shortcut"="DLY"
+"Min"="-3000"
+"Max"="0"
+"Step"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_SELECTION]
+"Default"="1"
+"Shortcut"="GRP#"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE]
+"Shortcut"="STATE"
+"Default"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\CONT]
+"Shortcut"="CONT"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_PARAMS]
+"Default"="GDAT0"
+"Shortcut"="PRM"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\ at]
+"Default"=" at"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\DIST]
+"Shortcut"="DIST"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\ Delay=]
+"Default"=" Delay="
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\DLY]
+"Default"=" 0"
+"Shortcut"="DLY"
+"Min"="-200"
+"Max"="200"
+"Step"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\MS]
+"Default"="ms"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\WRITELOG]
+"State"="True"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\WRITE_TBI]
+"State"="True"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\WRITE_APO]
+"State"="False"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_SELECTION\GRP_1]
+"Display"="GRP 1"
+"Value"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_SELECTION\GRP_2]
+"Display"="GRP 2"
+"Value"="2"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_SELECTION\GRP_3]
+"Display"="GRP 3"
+"Value"="3"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_SELECTION\GRP_4]
+"Display"="GRP 4"
+"Value"="4"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_SELECTION\GRP_5]
+"Display"="GRP 5"
+"Value"="5"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_SELECTION\GRP_6]
+"Display"="GRP 6"
+"Value"="6"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_SELECTION\GRP_7]
+"Display"="GRP 7"
+"Value"="7"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_SELECTION\GRP_8]
+"Display"="GRP 8"
+"Value"="8"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_SELECTION\GRP_9]
+"Display"="GRP 9"
+"Value"="9"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_SELECTION\GRP_10]
+"Display"="GRP 10"
+"Value"="10"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_SELECTION\GRP_11]
+"Display"="GRP 11"
+"Value"="11"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_SELECTION\GRP_12]
+"Display"="GRP 12"
+"Value"="12"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_SELECTION\GRP_13]
+"Display"="GRP 13"
+"Value"="13"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_SELECTION\GRP_14]
+"Display"="GRP 14"
+"Value"="14"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_SELECTION\GRP_15]
+"Display"="GRP 15"
+"Value"="15"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_SELECTION\GRP_16]
+"Display"="GRP 16"
+"Value"="16"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE1_TYP1]
+"Display"="OPN"
+"Value"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE2_TYP1]
+"Display"="CLO"
+"Value"="2"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE1_TYP2]
+"Display"="POS1"
+"Value"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE3_TYP2]
+"Display"="MID"
+"Value"="3"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE2_TYP2]
+"Display"="POS2"
+"Value"="2"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE1_TYP3]
+"Display"="VACUUM"
+"Value"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE3_TYP3]
+"Display"="OFF"
+"Value"="3"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE2_TYP3]
+"Display"="BLOW"
+"Value"="2"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE1_TYP4]
+"Display"="VACUUM"
+"Value"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE3_TYP4]
+"Display"="OFF"
+"Value"="3"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE2_TYP4]
+"Display"="BLOW"
+"Value"="2"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE1_TYP5]
+"Display"="OPN"
+"Value"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE2_TYP5]
+"Display"="CLO"
+"Value"="2"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE3_TYP1]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE4_TYP1]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE5_TYP1]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE6_TYP1]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE4_TYP2]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE5_TYP2]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE6_TYP2]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE1_TYP23]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE2_TYP23]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE3_TYP23]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE4_TYP23]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE5_TYP23]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE6_TYP23]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE1_TYP0]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE2_TYP0]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE3_TYP0]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE4_TYP0]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE5_TYP0]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE6_TYP0]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE4_TYP3]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE5_TYP3]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE6_TYP3]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE4_TYP4]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE5_TYP4]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPGRP\GRP_STATE\STATE6_TYP4]
+
+

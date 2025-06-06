@@ -1,0 +1,21 @@
+KUKA IOSYS LOGFILE
+------------------
+Log Date 21.5.25 : 20:13
+
+open ini-file successful, version 2.00
+
+driver DNDRV information
+  object file    
+  driver ready   1
+  driver version 021b
+  function entry 
+  input  objects 1
+  output objects 1
+
+driver CP561DRV information
+  object file    
+  driver ready   1
+  driver version 0201
+  function entry 
+  input  objects 8
+  output objects 8

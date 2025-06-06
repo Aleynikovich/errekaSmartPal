@@ -1,0 +1,337 @@
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\PRG_NO]
+"Max"="15"
+"Default"=" 1"
+"Shortcut"="PRG_NO"
+"Min"="0"
+"Step"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\V_arc]
+"Param_Available"="TRUE"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\CP_VEL]
+"Max"="2"
+"Default"="2.0"
+"Shortcut"="VEL"
+"Min"="0.001"
+"Step"="0.01"
+"Format"=" "
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\TOOL]
+"Shortcut"="TOOL"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\BASE]
+"Shortcut"="BASE"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\IPO_FRAME]
+"Shortcut"="extTCP"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\PTP_VEL]
+"Shortcut"="VEL"
+"Min"="1"
+"Max"="100"
+"Step"="1"
+"Default"=" 100"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\APO_DIS]
+"Min"="0"
+"Shortcut"="DIS"
+"Max"="100"
+"Step"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\APO_CPDIS]
+"Shortcut"="DIS"
+"Min"="0"
+"Max"="300"
+"Step"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\APO_FAC]
+"Shortcut"="FAC"
+"Min"="1"
+"Max"="100"
+"Step"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\VELOCITY]
+"Shortcut"="V_Arc"
+"Min"="0.01"
+"Max"="5"
+"Step"="0.01"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\WEAVFIG_MECH]
+"Shortcut"="TYPE"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\WEAVLEN_MECH]
+"Shortcut"="LNG"
+"Min"="0"
+"Max"="25"
+"Step"="0.1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\WEAVAMP_MECH]
+"Shortcut"="AMPL"
+"Min"="0"
+"Max"="25"
+"Step"="0.1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\WEAVANG_MECH]
+"Shortcut"="ANGLE"
+"Min"="-180"
+"Max"="180"
+"Step"="2"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\END_TI]
+"Shortcut"="TIME"
+"Min"="0"
+"Max"="2"
+"Step"="0.1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\MOVETYPE]
+"Default"="LIN"
+"Shortcut"="IPO"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\POINT1]
+"Default"="P0"
+"Shortcut"="Point#"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\CONT]
+"Default"="C_DIS"
+"Shortcut"="CONT"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\CP_VEL_PRE]
+"Default"="Vel="
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\CP_VEL_UNIT]
+"Default"="m/s"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\CP_PARAMS]
+"Default"="CPDAT0"
+"Shortcut"="Params"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\PTP_VEL_PRE]
+"Default"="Vel="
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\PTP_VEL_UNIT]
+"Default"="%"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\PTP_PARAMS]
+"Default"="PDAT0"
+"Shortcut"="Params"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\POINT2]
+"Default"="P0"
+"Shortcut"="TargetPoint#"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\START_SET]
+"Default"="S0"
+"Shortcut"="S_SET"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\COMMENT]
+"Default"="Seam0"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\END_SET]
+"Default"="E0"
+"Shortcut"="E_SET"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\WELD_SET]
+"Default"="W0"
+"Shortcut"="W_SET"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\WRITELOG]
+"State"="True"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\TOOL\TOOL_DATA[1]]
+"Display"="[1] Tool1     "
+"Value"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\TOOL\TOOL_DATA[2]]
+"Display"="[2] Tool2     "
+"Value"="2"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\TOOL\TOOL_DATA[3]]
+"Display"="TOOL_DATA[3]"
+"Value"="3"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\TOOL\TOOL_DATA[4]]
+"Display"="TOOL_DATA[4]"
+"Value"="4"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\TOOL\TOOL_DATA[5]]
+"Display"="TOOL_DATA[5]"
+"Value"="5"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\TOOL\TOOL_DATA[6]]
+"Display"="TOOL_DATA[6]"
+"Value"="6"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\TOOL\TOOL_DATA[7]]
+"Display"="TOOL_DATA[7]"
+"Value"="7"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\TOOL\TOOL_DATA[8]]
+"Display"="TOOL_DATA[8]"
+"Value"="8"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\TOOL\TOOL_DATA[9]]
+"Display"="TOOL_DATA[9]"
+"Value"="9"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\TOOL\TOOL_DATA[10]]
+"Display"="TOOL_DATA[10]"
+"Value"="10"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\TOOL\TOOL_DATA[11]]
+"Display"="TOOL_DATA[11]"
+"Value"="11"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\TOOL\TOOL_DATA[12]]
+"Display"="TOOL_DATA[12]"
+"Value"="12"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\TOOL\TOOL_DATA[13]]
+"Display"="TOOL_DATA[13]"
+"Value"="13"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\TOOL\TOOL_DATA[14]]
+"Display"="TOOL_DATA[14]"
+"Value"="14"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\TOOL\TOOL_DATA[15]]
+"Display"="TOOL_DATA[15]"
+"Value"="15"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\TOOL\TOOL_DATA[16]]
+"Display"="TOOL_DATA[16]"
+"Value"="16"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\BASE\BASE_DATA[1]]
+"Display"="BASE_DATA[1]"
+"Value"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\BASE\BASE_DATA[2]]
+"Display"="BASE_DATA[2]"
+"Value"="2"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\BASE\BASE_DATA[3]]
+"Display"="BASE_DATA[3]"
+"Value"="3"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\BASE\BASE_DATA[4]]
+"Display"="BASE_DATA[4]"
+"Value"="4"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\BASE\BASE_DATA[5]]
+"Display"="BASE_DATA[5]"
+"Value"="5"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\BASE\BASE_DATA[6]]
+"Display"="BASE_DATA[6]"
+"Value"="6"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\BASE\BASE_DATA[7]]
+"Display"="BASE_DATA[7]"
+"Value"="7"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\BASE\BASE_DATA[8]]
+"Display"="BASE_DATA[8]"
+"Value"="8"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\BASE\BASE_DATA[9]]
+"Display"="BASE_DATA[9]"
+"Value"="9"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\BASE\BASE_DATA[10]]
+"Display"="BASE_DATA[10]"
+"Value"="10"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\BASE\BASE_DATA[11]]
+"Display"="BASE_DATA[11]"
+"Value"="11"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\BASE\BASE_DATA[12]]
+"Display"="BASE_DATA[12]"
+"Value"="12"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\BASE\BASE_DATA[13]]
+"Display"="BASE_DATA[13]"
+"Value"="13"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\BASE\BASE_DATA[14]]
+"Display"="BASE_DATA[14]"
+"Value"="14"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\BASE\BASE_DATA[15]]
+"Display"="BASE_DATA[15]"
+"Value"="15"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\BASE\BASE_DATA[16]]
+"Display"="BASE_DATA[16]"
+"Value"="16"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPA20\MOVETYPE\PTP]
+"Value"="PTP"
+
+

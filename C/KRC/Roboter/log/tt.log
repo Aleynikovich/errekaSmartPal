@@ -1,0 +1,380 @@
+
+ ============================================================
+ == Grundsystemversion:
+ ==  KS V4.97 (krc1adm@ntkrc4adm) #1 Thu Apr 14 16:52:33 MST 2005 RELEASE
+ ==
+ == Verursachende TASK: KAF_SPR  Systemfehler 14
+ == Parameter: 0
+ ==
+ == Datum: 5.5.20  Zeit: 6:35:42
+ ==
+ == Betriebsart: #T1
+ ==
+ == SUBMIT: P_FREE
+ ==         Programm: kein  Satznummer: ungueltig UP-Ebene: ungueltig
+ == ROBINT: P_FREE
+ ==         Programm: kein  Satznummer: ungueltig UP-Ebene: ungueltig
+ ==
+ == Roboter: #KR125_3_TJ G C2 FLR ZH05  Seriennummer: 848663
+ ==
+ == Board/BIOS-Version: KUKA Roboter GmbH SY-7VBA133U/K V1.4.0 (KUKA1030)
+ ==
+ ============================================================
+10010bfa _vxTaskEntry   +a  : _nrkNonCycCtrlTsk (107b0d38, 3, 0, 0, 0, 0, 0, 0, 0, 0)
+1029c237 _nrkNonCycCtrlTsk+393: _kaf ([107b2a94, ffffffff, 1e, 1029c590, 0])
+100625ab _kaf           +3  : 10061c94 ([10773878, 1029c239, 107b2a94, ffffffff, 1e])
+10061e50 _printADSContent+240: 10061e60 ([107733b4, 0, 8, 0, 107733a4])
+1006222a _printADSContent+61a: _sint ([107733b4, 7f7d8000, 3, 0, 10010863])
+10095130 _sint          +15c: _runtok ([107733b4, 7f7d009e, 1078bdfc, 10773378, 1006222f])
+10110df8 _runtok        +384: _ff_compileall ([103ca03c, 1, 107730fc, 0, 7f7d009e])
+100ccc2c _ff_compileall +64c: _excStub ([0, 107730fc, 107730e0, 107733b4, 502d7472])
+102c9225 _excStub       +35 : _excExcHandle (e, 10772ec8, 10772ea0)
+10010d00 _excExcHandle  +94 : _kukaExcHandler (107738a8, e, 10772ec8)
+1006618e _kukaExcHandler+4a : _taskDelay ([3e8, 10772e78, e, 10772e8c, 10010d02])
+
+ ------------------------------------------------------------------
+ == Informationen ueber Groesse und Belegung der Interpreterstacks.
+ ------------------------------------------------------------------
+KAF_SPR      BasePtr 0x7f7ce000   EndPtr  0x7f7d3000   AbsEndPtr   0x7f7d8000 
+ElemCntr  0  Id      0x107781b0   ElemPtr 0x7f7ce004   NextElemPtr 0x7f7ce004 
+
+KAF_SPR      BasePtr 0x7f7c3000   EndPtr  0x7f7c4000   AbsEndPtr   0x7f7cd000 
+ElemCntr  0  Id      0x10778098   ElemPtr 0x7f7c3004   NextElemPtr 0x7f7c3004 
+
+KAF_SPR      BasePtr 0x7f7b8000   EndPtr  0x7f7b9000   AbsEndPtr   0x7f7c2000 
+ElemCntr  0  Id      0x10777f80   ElemPtr 0x7f7b8004   NextElemPtr 0x7f7b8004 
+
+KAF_SPR      BasePtr 0x7f7ad000   EndPtr  0x7f7ae000   AbsEndPtr   0x7f7b7000 
+ElemCntr  0  Id      0x10777e68   ElemPtr 0x7f7ad004   NextElemPtr 0x7f7ad004 
+
+KAF_OBJH     BasePtr 0x7f7a8000   EndPtr  0x7f7a9000   AbsEndPtr   0x7f7b2000 
+ElemCntr  0  Id      0x10777d50   ElemPtr 0x7f7a8004   NextElemPtr 0x7f7a8004 
+
+KFI          BasePtr 0x7f7a3000   EndPtr  0x7f7a4000   AbsEndPtr   0x7f7a5000 
+ElemCntr  0  Id      0x10777c04   ElemPtr 0x7f7a3004   NextElemPtr 0x7f7a3004 
+
+INFH         BasePtr 0x7f79e000   EndPtr  0x7f7a2000   AbsEndPtr   0x7f7a2000 
+ElemCntr  0  Id      0x10777aec   ElemPtr 0x7f79e004   NextElemPtr 0x7f79e004 
+
+S_INT        BasePtr 0x7f793000   EndPtr  0x7f794000   AbsEndPtr   0x7f795000 
+ElemCntr  0  Id      0x107a22ec   ElemPtr 0x7f793004   NextElemPtr 0x7f793004 
+
+R_INT        BasePtr 0x7f788000   EndPtr  0x7f789000   AbsEndPtr   0x7f78a000 
+ElemCntr  0  Id      0x10776a58   ElemPtr 0x7f788004   NextElemPtr 0x7f788004 
+
+EXPR_INT     BasePtr 0x7f77d000   EndPtr         0x0   AbsEndPtr          0x0 
+ElemCntr  0  Id      0x107791ec   ElemPtr        0x0   NextElemPtr        0x0 
+
+tZYK         BasePtr 0x7f77a000   EndPtr  0x7f77b000   AbsEndPtr   0x7f77c000 
+ElemCntr  0  Id      0x105a9e30   ElemPtr 0x7f77a004   NextElemPtr 0x7f77a004 
+
+tZYK_HP      BasePtr 0x7f76e000   EndPtr  0x7f76f000   AbsEndPtr   0x7f76f000 
+ElemCntr  0  Id      0x10578b00   ElemPtr 0x7f76e004   NextElemPtr 0x7f76e004 
+
+Lader        BasePtr 0x107a7f68   EndPtr  0x107a8068   AbsEndPtr   0x107a8068 
+ElemCntr  1  Id             0x0   ElemPtr 0x107a7f6c   NextElemPtr 0x107a7fc8 
+
+
+areaShow(1,0)
+
+big physical area page pool, summary:
+total pages:   0x780
+free pages:           0x26
+max free pages block: 0x10
+used pages:           0x75a
+max used pages block: 0x5d
+
+areaShow(1,1)
+
+big linear   area page pool, summary:
+total pages:   0x3ffff
+free pages:           0x39202
+max free pages block: 0x3032d
+used pages:           0x6dfd
+max used pages block: 0x5e
+
+
+ ============================================================
+ == Grundsystemversion:
+ ==  KS V4.97 (krc1adm@ntkrc4adm) #1 Thu Apr 14 16:52:33 MST 2005 RELEASE
+ ==
+ == Verursachende TASK: KAF_SPR  Systemfehler 14
+ == Parameter: 0
+ ==
+ == Datum: 27.6.23  Zeit: 10:3:32
+ ==
+ == Betriebsart: #T1
+ ==
+ == SUBMIT: P_FREE
+ ==         Programm: kein  Satznummer: ungueltig UP-Ebene: ungueltig
+ == ROBINT: P_FREE
+ ==         Programm: kein  Satznummer: ungueltig UP-Ebene: ungueltig
+ ==
+ == Roboter: #KR125_3_TJ G C2 FLR ZH05  Seriennummer: 848663
+ ==
+ == Board/BIOS-Version: KUKA Roboter GmbH SY-7VBA133U/K V1.4.0 (KUKA1030)
+ ==
+ ============================================================
+10010bfa _vxTaskEntry   +a  : _nrkNonCycCtrlTsk (107af928, 3, 0, 0, 0, 0, 0, 0, 0, 0)
+1029c237 _nrkNonCycCtrlTsk+393: _kaf ([107b2294, ffffffff, 1e, 1029c590, 0])
+100625ab _kaf           +3  : 10061c94 ([10770090, 1029c239, 107b2294, ffffffff, 1e])
+10061e50 _printADSContent+240: 10061e60 ([1076fbcc, 0, 8, 0, 1076fbbc])
+1006222a _printADSContent+61a: _sint ([1076fbcc, 7f7d8000, 3, 0, 10010863])
+10095130 _sint          +15c: _runtok ([1076fbcc, 7f7d009e, 107883b0, 1076fb90, 1006222f])
+10110df8 _runtok        +384: _ff_compileall ([103ca03c, 1, 1076f914, 0, 7f7d009e])
+100ccc2c _ff_compileall +64c: _excStub ([0, 1076f914, 1076f8f8, 1076fbcc, 5f444548])
+102c9225 _excStub       +35 : _excExcHandle (e, 1076f6e0, 1076f6b8)
+10010d00 _excExcHandle  +94 : _kukaExcHandler (107700c0, e, 1076f6e0)
+1006618e _kukaExcHandler+4a : _taskDelay ([3e8, 1076f690, e, 1076f6a4, 10010d02])
+
+ ------------------------------------------------------------------
+ == Informationen ueber Groesse und Belegung der Interpreterstacks.
+ ------------------------------------------------------------------
+KAF_SPR      BasePtr 0x7f7ce000   EndPtr  0x7f7d3000   AbsEndPtr   0x7f7d8000 
+ElemCntr  0  Id      0x10774cf8   ElemPtr 0x7f7ce004   NextElemPtr 0x7f7ce004 
+
+KAF_SPR      BasePtr 0x7f7c3000   EndPtr  0x7f7c4000   AbsEndPtr   0x7f7cd000 
+ElemCntr  0  Id      0x10774be0   ElemPtr 0x7f7c3004   NextElemPtr 0x7f7c3004 
+
+KAF_SPR      BasePtr 0x7f7b8000   EndPtr  0x7f7b9000   AbsEndPtr   0x7f7c2000 
+ElemCntr  0  Id      0x10774ac8   ElemPtr 0x7f7b8004   NextElemPtr 0x7f7b8004 
+
+KAF_SPR      BasePtr 0x7f7ad000   EndPtr  0x7f7ae000   AbsEndPtr   0x7f7b7000 
+ElemCntr  0  Id      0x107749b0   ElemPtr 0x7f7ad004   NextElemPtr 0x7f7ad004 
+
+KAF_OBJH     BasePtr 0x7f7a8000   EndPtr  0x7f7a9000   AbsEndPtr   0x7f7b2000 
+ElemCntr  0  Id      0x10774898   ElemPtr 0x7f7a8004   NextElemPtr 0x7f7a8004 
+
+KFI          BasePtr 0x7f7a3000   EndPtr  0x7f7a4000   AbsEndPtr   0x7f7a5000 
+ElemCntr  0  Id      0x1077474c   ElemPtr 0x7f7a3004   NextElemPtr 0x7f7a3004 
+
+INFH         BasePtr 0x7f79e000   EndPtr  0x7f7a2000   AbsEndPtr   0x7f7a2000 
+ElemCntr  0  Id      0x10774634   ElemPtr 0x7f79e004   NextElemPtr 0x7f79e004 
+
+S_INT        BasePtr 0x7f793000   EndPtr  0x7f794000   AbsEndPtr   0x7f795000 
+ElemCntr  0  Id      0x107cd9b0   ElemPtr 0x7f793004   NextElemPtr 0x7f793004 
+
+R_INT        BasePtr 0x7f788000   EndPtr  0x7f789000   AbsEndPtr   0x7f78a000 
+ElemCntr  0  Id      0x107731a0   ElemPtr 0x7f788004   NextElemPtr 0x7f788004 
+
+EXPR_INT     BasePtr 0x7f77d000   EndPtr         0x0   AbsEndPtr          0x0 
+ElemCntr  0  Id      0x106f872c   ElemPtr        0x0   NextElemPtr        0x0 
+
+tZYK         BasePtr 0x7f77a000   EndPtr  0x7f77b000   AbsEndPtr   0x7f77c000 
+ElemCntr  0  Id      0x105a65ec   ElemPtr 0x7f77a004   NextElemPtr 0x7f77a004 
+
+tZYK_HP      BasePtr 0x7f76e000   EndPtr  0x7f76f000   AbsEndPtr   0x7f76f000 
+ElemCntr  0  Id      0x1057c580   ElemPtr 0x7f76e004   NextElemPtr 0x7f76e004 
+
+Lader        BasePtr 0x107a44a0   EndPtr  0x107a45a0   AbsEndPtr   0x107a45a0 
+ElemCntr  1  Id             0x0   ElemPtr 0x107a44a4   NextElemPtr 0x107a4500 
+
+
+areaShow(1,0)
+
+big physical area page pool, summary:
+total pages:   0x780
+free pages:           0x23
+max free pages block: 0xe
+used pages:           0x75d
+max used pages block: 0x5d
+
+areaShow(1,1)
+
+big linear   area page pool, summary:
+total pages:   0x3ffff
+free pages:           0x3989c
+max free pages block: 0x380c7
+used pages:           0x6763
+max used pages block: 0x5e
+
+
+ ============================================================
+ == Grundsystemversion:
+ ==  KS V4.97 (krc1adm@ntkrc4adm) #1 Thu Apr 14 16:52:33 MST 2005 RELEASE
+ ==
+ == Verursachende TASK: KAF_SPR  Systemfehler 14
+ == Parameter: 0
+ ==
+ == Datum: 28.6.23  Zeit: 16:47:31
+ ==
+ == Betriebsart: #T1
+ ==
+ == SUBMIT: P_FREE
+ ==         Programm: kein  Satznummer: ungueltig UP-Ebene: ungueltig
+ == ROBINT: P_FREE
+ ==         Programm: kein  Satznummer: ungueltig UP-Ebene: ungueltig
+ ==
+ == Roboter: #KR125_3_TJ G C2 FLR ZH05  Seriennummer: 848663
+ ==
+ == Board/BIOS-Version: KUKA Roboter GmbH SY-7VBA133U/K V1.4.0 (KUKA1030)
+ ==
+ ============================================================
+10010bfa _vxTaskEntry   +a  : _nrkNonCycCtrlTsk (107af928, 3, 0, 0, 0, 0, 0, 0, 0, 0)
+1029c237 _nrkNonCycCtrlTsk+393: _kaf ([107b2294, ffffffff, 1e, 1029c590, 0])
+100625ab _kaf           +3  : 10061c94 ([10770090, 1029c239, 107b2294, ffffffff, 1e])
+10061e50 _printADSContent+240: 10061e60 ([1076fbcc, 0, 8, 0, 1076fbbc])
+1006222a _printADSContent+61a: _sint ([1076fbcc, 7f7d8000, 3, 0, 10010863])
+10095130 _sint          +15c: _runtok ([1076fbcc, 7f7d009e, 10788bd0, 1076fb90, 1006222f])
+10110df8 _runtok        +384: _ff_compileall ([103ca03c, 1, 1076f914, 0, 7f7d009e])
+100ccc2c _ff_compileall +64c: _excStub ([0, 1076f914, 1076f8f8, 1076fbcc, 5f444548])
+102c9225 _excStub       +35 : _excExcHandle (e, 1076f6e0, 1076f6b8)
+10010d00 _excExcHandle  +94 : _kukaExcHandler (107700c0, e, 1076f6e0)
+1006618e _kukaExcHandler+4a : _taskDelay ([3e8, 1076f690, e, 1076f6a4, 10010d02])
+
+ ------------------------------------------------------------------
+ == Informationen ueber Groesse und Belegung der Interpreterstacks.
+ ------------------------------------------------------------------
+KAF_SPR      BasePtr 0x7f7ce000   EndPtr  0x7f7d3000   AbsEndPtr   0x7f7d8000 
+ElemCntr  0  Id      0x10774cf8   ElemPtr 0x7f7ce004   NextElemPtr 0x7f7ce004 
+
+KAF_SPR      BasePtr 0x7f7c3000   EndPtr  0x7f7c4000   AbsEndPtr   0x7f7cd000 
+ElemCntr  0  Id      0x10774be0   ElemPtr 0x7f7c3004   NextElemPtr 0x7f7c3004 
+
+KAF_SPR      BasePtr 0x7f7b8000   EndPtr  0x7f7b9000   AbsEndPtr   0x7f7c2000 
+ElemCntr  0  Id      0x10774ac8   ElemPtr 0x7f7b8004   NextElemPtr 0x7f7b8004 
+
+KAF_SPR      BasePtr 0x7f7ad000   EndPtr  0x7f7ae000   AbsEndPtr   0x7f7b7000 
+ElemCntr  0  Id      0x107749b0   ElemPtr 0x7f7ad004   NextElemPtr 0x7f7ad004 
+
+KAF_OBJH     BasePtr 0x7f7a8000   EndPtr  0x7f7a9000   AbsEndPtr   0x7f7b2000 
+ElemCntr  0  Id      0x10774898   ElemPtr 0x7f7a8004   NextElemPtr 0x7f7a8004 
+
+KFI          BasePtr 0x7f7a3000   EndPtr  0x7f7a4000   AbsEndPtr   0x7f7a5000 
+ElemCntr  0  Id      0x1077474c   ElemPtr 0x7f7a3004   NextElemPtr 0x7f7a3004 
+
+INFH         BasePtr 0x7f79e000   EndPtr  0x7f7a2000   AbsEndPtr   0x7f7a2000 
+ElemCntr  0  Id      0x10774634   ElemPtr 0x7f79e004   NextElemPtr 0x7f79e004 
+
+S_INT        BasePtr 0x7f793000   EndPtr  0x7f794000   AbsEndPtr   0x7f795000 
+ElemCntr  0  Id      0x107cd9b0   ElemPtr 0x7f793004   NextElemPtr 0x7f793004 
+
+R_INT        BasePtr 0x7f788000   EndPtr  0x7f789000   AbsEndPtr   0x7f78a000 
+ElemCntr  0  Id      0x107731a0   ElemPtr 0x7f788004   NextElemPtr 0x7f788004 
+
+EXPR_INT     BasePtr 0x7f77d000   EndPtr         0x0   AbsEndPtr          0x0 
+ElemCntr  0  Id      0x106f872c   ElemPtr        0x0   NextElemPtr        0x0 
+
+tZYK         BasePtr 0x7f77a000   EndPtr  0x7f77b000   AbsEndPtr   0x7f77c000 
+ElemCntr  0  Id      0x105a65ec   ElemPtr 0x7f77a004   NextElemPtr 0x7f77a004 
+
+tZYK_HP      BasePtr 0x7f76e000   EndPtr  0x7f76f000   AbsEndPtr   0x7f76f000 
+ElemCntr  0  Id      0x1057c580   ElemPtr 0x7f76e004   NextElemPtr 0x7f76e004 
+
+Lader        BasePtr 0x107a44a0   EndPtr  0x107a45a0   AbsEndPtr   0x107a45a0 
+ElemCntr  1  Id             0x0   ElemPtr 0x107a44a4   NextElemPtr 0x107a4500 
+
+
+areaShow(1,0)
+
+big physical area page pool, summary:
+total pages:   0x780
+free pages:           0x15
+max free pages block: 0xe
+used pages:           0x76b
+max used pages block: 0x5d
+
+areaShow(1,1)
+
+big linear   area page pool, summary:
+total pages:   0x3ffff
+free pages:           0x3995f
+max free pages block: 0x388a0
+used pages:           0x66a0
+max used pages block: 0x5e
+
+
+ ============================================================
+ == Grundsystemversion:
+ ==  KS V4.97 (krc1adm@ntkrc4adm) #1 Thu Apr 14 16:52:33 MST 2005 RELEASE
+ ==
+ == Verursachende TASK: KAF_SPR  Systemfehler 14
+ == Parameter: 0
+ ==
+ == Datum: 27.2.25  Zeit: 12:52:56
+ ==
+ == Betriebsart: #T1
+ ==
+ == SUBMIT: P_FREE
+ ==         Programm: kein  Satznummer: ungueltig UP-Ebene: ungueltig
+ == ROBINT: P_FREE
+ ==         Programm: kein  Satznummer: ungueltig UP-Ebene: ungueltig
+ ==
+ == Roboter: #KR125_3_TJ G C2 FLR ZH05  Seriennummer: 848663
+ ==
+ == Board/BIOS-Version: KUKA Roboter GmbH SY-7VBA133U V1.2b (KUKA-F)
+ ==
+ ============================================================
+10010bfa _vxTaskEntry   +a  : _nrkNonCycCtrlTsk (107b0d38, 3, 0, 0, 0, 0, 0, 0, 0, 0)
+1029c237 _nrkNonCycCtrlTsk+393: _kaf ([107b2a94, ffffffff, 1e, 1029c590, 0])
+100625ab _kaf           +3  : 10061c94 ([10773878, 1029c239, 107b2a94, ffffffff, 1e])
+10061e50 _printADSContent+240: 10061e60 ([107733b4, 0, 8, 0, 107733a4])
+1006222a _printADSContent+61a: _sint ([107733b4, 7f7d8000, 3, 0, 10010863])
+10095130 _sint          +15c: _runtok ([107733b4, 7f7d009e, 1078f2cc, 10773378, 1006222f])
+10110df8 _runtok        +384: _ff_compileall ([103ca03c, 1, 107730fc, 0, 7f7d009e])
+100ccc2c _ff_compileall +64c: _excStub ([0, 107730fc, 107730e0, 107733b4, 502d7472])
+102c9225 _excStub       +35 : _excExcHandle (e, 10772ec8, 10772ea0)
+10010d00 _excExcHandle  +94 : _kukaExcHandler (107738a8, e, 10772ec8)
+1006618e _kukaExcHandler+4a : _taskDelay ([3e8, 10772e78, e, 10772e8c, 10010d02])
+
+ ------------------------------------------------------------------
+ == Informationen ueber Groesse und Belegung der Interpreterstacks.
+ ------------------------------------------------------------------
+KAF_SPR      BasePtr 0x7f7ce000   EndPtr  0x7f7d3000   AbsEndPtr   0x7f7d8000 
+ElemCntr  0  Id      0x107781b0   ElemPtr 0x7f7ce004   NextElemPtr 0x7f7ce004 
+
+KAF_SPR      BasePtr 0x7f7c3000   EndPtr  0x7f7c4000   AbsEndPtr   0x7f7cd000 
+ElemCntr  0  Id      0x10778098   ElemPtr 0x7f7c3004   NextElemPtr 0x7f7c3004 
+
+KAF_SPR      BasePtr 0x7f7b8000   EndPtr  0x7f7b9000   AbsEndPtr   0x7f7c2000 
+ElemCntr  0  Id      0x10777f80   ElemPtr 0x7f7b8004   NextElemPtr 0x7f7b8004 
+
+KAF_SPR      BasePtr 0x7f7ad000   EndPtr  0x7f7ae000   AbsEndPtr   0x7f7b7000 
+ElemCntr  0  Id      0x10777e68   ElemPtr 0x7f7ad004   NextElemPtr 0x7f7ad004 
+
+KAF_OBJH     BasePtr 0x7f7a8000   EndPtr  0x7f7a9000   AbsEndPtr   0x7f7b2000 
+ElemCntr  0  Id      0x10777d50   ElemPtr 0x7f7a8004   NextElemPtr 0x7f7a8004 
+
+KFI          BasePtr 0x7f7a3000   EndPtr  0x7f7a4000   AbsEndPtr   0x7f7a5000 
+ElemCntr  0  Id      0x10777c04   ElemPtr 0x7f7a3004   NextElemPtr 0x7f7a3004 
+
+INFH         BasePtr 0x7f79e000   EndPtr  0x7f7a2000   AbsEndPtr   0x7f7a2000 
+ElemCntr  0  Id      0x10777aec   ElemPtr 0x7f79e004   NextElemPtr 0x7f79e004 
+
+S_INT        BasePtr 0x7f793000   EndPtr  0x7f794000   AbsEndPtr   0x7f795000 
+ElemCntr  0  Id      0x107a22ec   ElemPtr 0x7f793004   NextElemPtr 0x7f793004 
+
+R_INT        BasePtr 0x7f788000   EndPtr  0x7f789000   AbsEndPtr   0x7f78a000 
+ElemCntr  0  Id      0x10776a58   ElemPtr 0x7f788004   NextElemPtr 0x7f788004 
+
+EXPR_INT     BasePtr 0x7f77d000   EndPtr         0x0   AbsEndPtr          0x0 
+ElemCntr  0  Id      0x107791ec   ElemPtr        0x0   NextElemPtr        0x0 
+
+tZYK         BasePtr 0x7f77a000   EndPtr  0x7f77b000   AbsEndPtr   0x7f77c000 
+ElemCntr  0  Id      0x105a9e30   ElemPtr 0x7f77a004   NextElemPtr 0x7f77a004 
+
+tZYK_HP      BasePtr 0x7f76e000   EndPtr  0x7f76f000   AbsEndPtr   0x7f76f000 
+ElemCntr  0  Id      0x10578b00   ElemPtr 0x7f76e004   NextElemPtr 0x7f76e004 
+
+Lader        BasePtr 0x107a7f68   EndPtr  0x107a8068   AbsEndPtr   0x107a8068 
+ElemCntr  1  Id             0x0   ElemPtr 0x107a7f6c   NextElemPtr 0x107a7fc8 
+
+
+areaShow(1,0)
+
+big physical area page pool, summary:
+total pages:   0x780
+free pages:           0x1a
+max free pages block: 0x11
+used pages:           0x766
+max used pages block: 0x5d
+
+areaShow(1,1)
+
+big linear   area page pool, summary:
+total pages:   0x3ffff
+free pages:           0x39881
+max free pages block: 0x385e9
+used pages:           0x677e
+max used pages block: 0x5e
+

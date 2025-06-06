@@ -1,0 +1,90 @@
+16:46:04 .SETUP.EXE started at: November 25, 2016 16:46:04
+16:46:04 -----------------------------------------------------------------------------
+16:46:04 .Command line: 
+16:46:04 .Kit-Dll loaded from: D:\PROFIBUSA2UPGRADE V1.0.0 BUILD 3\KIT.DLL
+16:46:04 .CheckKitVersion: TRUE (KitVersion: 1.7.0.0)
+16:46:04 .Version.ini: Option=Upgrade Version=V1.0.0 Build=3 Date=20060620 
+16:46:04 .Start init PreSelectBase
+16:46:04 .enumerate installed options
+16:46:04 .reading: [HKLM\Software\KUKA Roboter GmbH\Version], "Version"
+16:46:04 .->result: V4.1.7 SP08
+16:46:04 .reading: [HKLM\Software\KUKA Roboter GmbH\Version], "OfficeLite"
+16:46:04 .->result: 0
+16:46:04 .reading: [HKLM\Software\KUKA Roboter GmbH\Version], "Customer"
+16:46:04 .->result: KUKA
+16:46:04 .reading: [HKLM\Software\KUKA Roboter GmbH\Version], "InstallationDir"
+16:46:04 .->result: C:\KRC
+16:46:04 .S4R: Get the TrafoName for the actual mada typ.
+16:46:04 .S4R: Actual TrafoName: #KR125_1 H C2 FLR ZH01
+16:46:04 .End init PreSelectBase
+16:46:04 .use section [Setup]
+16:46:04 .Get infos from current installed release
+16:46:04 !Unable to get value of registry key 'Patch'.
+16:46:04 !Unable to get value of registry key 'PatchDir'.
+16:46:04 .Use INI-File: D:\PROFIBUSA2UPGRADE V1.0.0 BUILD 3\INTERNAT\KRCUPD\Setup.ini
+16:46:04 .Check INI-files.
+16:46:04 !Section 'Exec4' not found in 'D:\PROFIBUSA2UPGRADE V1.0.0 BUILD 3\INTERNAT\KRCUPD\Setup.ini'.
+16:46:04 !Section 'Delete0' not found in 'D:\PROFIBUSA2UPGRADE V1.0.0 BUILD 3\INTERNAT\KRCUPD\Setup.ini'.
+16:46:04 !Section 'Delete' not found in 'D:\PROFIBUSA2UPGRADE V1.0.0 BUILD 3\INTERNAT\KRCUPD\Setup.ini'.
+16:46:04 !Section 'WinDir' not found in 'D:\PROFIBUSA2UPGRADE V1.0.0 BUILD 3\INTERNAT\KRCUPD\Setup.ini'.
+16:46:04 !Section 'UserVar' not found in 'D:\PROFIBUSA2UPGRADE V1.0.0 BUILD 3\INTERNAT\KRCUPD\Setup.ini'.
+16:46:04 !Section 'Dependencies' not found in 'D:\PROFIBUSA2UPGRADE V1.0.0 BUILD 3\INTERNAT\KRCUPD\Setup.ini'.
+16:46:04 !Get ParameterMark: No value for ParameterMark found. Use #
+16:46:04 !Get SPDir (new drive selected): C
+16:46:04 !Unable to get 'LogFile' from KuKaUpd.ini
+16:46:04 .GetUserExeLangID: 0x40a
+16:46:04 !Get LanguageDir no Id available in section [WinDir]
+16:46:04 !Get LanguageDir Id not found in section [WinDir]
+16:46:04 .Check if the user belongs to the Administrators group
+16:46:04 .Win95 no check needed
+16:46:04 !Unable to get 'ShowSecurityCheck' from KuKaUpd.ini
+16:46:04 !Unable to get 'KrcRunning' from KuKaUpd.ini
+16:46:04 !Unable to get 'CheckDependencies' from KuKaUpd.ini
+16:46:04 .Start prepare Technology Setup installation
+16:46:04 .Don't check installed version and service pack version
+16:46:04 !Get SPDir (new drive selected): C
+16:46:04 .Delete work 0
+16:46:04 !Delete work nothing to do
+16:46:04 .Make SaveDir
+16:46:04 !Make UninstDir nothing to do
+16:46:04 !Make ReinstDir nothing to do
+16:46:04 !Make SaveDir nothing to do
+16:46:04 .Save files
+16:46:04 .Copy files with wininit-method
+16:46:04 !Get NoHibernate: No value for NoHibernate found. Use 'AUTO'
+16:46:04 .KRC process is not running => NoHibernate=FALSE
+16:46:04 .Unregister files
+16:46:04 .Delete work 1
+16:46:04 !Delete work nothing to do
+16:46:04 .Copy files final step
+16:46:05 .CopyFiles: 1 from C:\KRC\Roboter\Drivers\pfbmsdrv.o to C:\KRC\Roboter\Drivers\pfbmsdrv.o_old
+16:46:05 .CopyFiles: 1 from D:\PROFIBUSA2UPGRADE V1.0.0 BUILD 3\Internat\KrcUpd\pfbmsdrv_mm_no_aout.o to C:\KRC\Roboter\Drivers\pfbmsdrv.o
+16:46:05 !Condition FALSE: [CopyFiles] %InstallationDir%\Roboter\Drivers\pfbmsdrv.o=%SourceDir%\Internat\KrcUpd\pfbmsdrv_mm_yes_aout.o ///KrcVersion=V5 
+16:46:05 .CopyFiles: 1 from D:\PROFIBUSA2UPGRADE V1.0.0 BUILD 3\Internat\KrcUpd\fw5613a2.bin  to C:\KRC\Roboter\Drivers\fw5613a2.bin
+16:46:05 .CopyFiles: 1 from D:\PROFIBUSA2UPGRADE V1.0.0 BUILD 3\Internat\KrcUpd\pfbms.inf to C:\WINDOWS\Inf\pfbms.inf
+16:46:05 !Condition FALSE: [CopyFiles] %WinDir%\Inf\pfbms.inf=%SourceDir%\Internat\KrcUpd\PB_XP.inf ///KrcVersion=V5 
+16:46:05 .Execute check parameter: D:\PROFIBUSA2UPGRADE V1.0.0 BUILD 3\INTERNAT\KRCUPD\XchgFile.exe #C:\KRC\Roboter\Init\pfbms.ini | D:\PROFIBUSA2UPGRADE V1.0.0 BUILD 3\INTERNAT\KRCUPD\pfbms.add# /INI
+16:46:05 .Execute start: "D:\PROFIBUSA2UPGRADE V1.0.0 BUILD 3\INTERNAT\KRCUPD\XchgFile.exe" C:\KRC\Roboter\Init\pfbms.ini | D:\PROFIBUSA2UPGRADE V1.0.0 BUILD 3\INTERNAT\KRCUPD\pfbms.add  /INI
+16:46:05 .XchgFile: CmdLine "C:\KRC\Roboter\Init\pfbms.ini | D:\PROFIBUSA2UPGRADE V1.0.0 BUILD 3\INTERNAT\KRCUPD\pfbms.add  /INI"
+16:46:05 .Kit-Dll loaded from: D:\PROFIBUSA2UPGRADE V1.0.0 BUILD 3\KIT.DLL
+16:46:05 .reading: C:\KRC\ROBOTER\INIT\pfbms.ini
+16:46:05 .deleting: C:\KRC\ROBOTER\INIT\pfbms.ini, [MASTER] FIRMWARE_PATH
+16:46:05 .writing: C:\KRC\ROBOTER\INIT\pfbms.ini, [MASTER] FIRMWARE_PATH_A1=drivers/FW_5613.bin
+16:46:05 .writing: C:\KRC\ROBOTER\INIT\pfbms.ini, [MASTER] FIRMWARE_PATH_A2=drivers/FW5613A2.bin
+16:46:05 .XchgFile: success
+16:46:05 .Return value from executed program: 0
+16:46:05 .Register files
+16:46:05 .Save registry
+16:46:05 .Registry work
+16:46:05 .Modify files
+16:46:05 .Make shortcuts
+16:46:05 .No update of patch info in registry
+16:46:05 .Add KukaLog
+16:46:05 !No Name key available in section RegOption.
+16:46:05 .Force KRC1 to make cold start
+16:46:05 .Force no hibernate
+16:46:05 .Don't force windows to make restart  after installation of the Technology Setup
+16:46:05 .Technology Setup executed successfully!!
+16:46:09 !Unable to get 'DelSourceDir' from KuKaUpd.ini
+16:46:09 .SETUP.EXE ends at: November 25, 2016 16:46:09
+16:46:09 -----------------------------------------------------------------------------

@@ -1,0 +1,14 @@
+FILE_PTR_POS=000911
+21/05/25 20:13:11 : Logfile for Profibus CP5613/14 (V2.01.0.7)                  
+21/05/25 20:13:11 : use default DATABASE_PATH=init/slave.ldb                    
+21/05/25 20:13:12 : Downloading Firmware and Database.........                  
+21/05/25 20:13:14 : CP5613/14 started!                                          
+21/05/25 20:13:14 : Slave Application registered at the CP!                     
+21/05/25 20:13:14 : Slave started!                                              
+21/05/25 20:13:14 : Accessed pointer to DPR from CP!                            
+21/05/25 20:13:14 : Slave baudrate  : 1,5 MB                                    
+21/05/25 20:13:14 : SLAVE_MODUL: State = WAIT_FOR_PARAMETER                     
+21/05/25 20:13:14 : SLAVE_MODUL: State = WAIT_FOR_CONFIGURATION                 
+21/05/25 20:13:14 : SLAVE_MODUL: State = DATA_EXCHANGE                          
+=====  LAST_ENTRY  =====                                                        
+                                                                                

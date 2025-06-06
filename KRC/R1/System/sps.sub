@@ -1,0 +1,192 @@
+&ACCESS RV
+&REL 85
+&COMMENT PLC on control
+DEF  SPS ( )
+  ;FOLD DECLARATIONS;%{PE}%V3.2.0,%MKUKATPBASIS,%CINIT,%VCOMMON,%P
+  ;FOLD BASIS DECL;%{PE}%V3.2.0,%MKUKATPBASIS,%CINIT,%VCOMMON,%P
+  DECL INT WFD_PLUS,WFD_MINUS,OLD_WFD
+  ;Automatik extern
+  DECL STATE_T STAT
+  DECL MODUS_T MODE
+  ;ENDFOLD (BASIS DECL)
+  ;FOLD USER DECL;%{PE}%V3.2.0,%MKUKATPBASIS,%CINIT,%VCOMMON,%P
+  ; Please insert user defined declarations
+
+  ;ENDFOLD (USER DECL)
+  ;ENDFOLD (DECLARATIONS)
+  ;FOLD INI;%{PE}%V3.2.0,%MKUKATPBASIS,%CINIT,%VCOMMON,%P
+
+  ;Default value MSG_T 
+  $MSG_T={MSG_T: VALID FALSE,RELEASE FALSE,TYP #NOTIFY,MODUL[] " ",KEY[] " ",PARAM_TYP #VALUE,PARAM[] " ",DLG_FORMAT[] " ",ANSWER 0}
+  ;FOLD AUTOEXT INIT;%{E}%V3.2.0,%MKUKATPBASIS,%CSPS,%VAUTOEXT,%P
+  INTERRUPT DECL 91 WHEN $PRO_STATE1==#P_FREE DO RESET_OUT ()
+  INTERRUPT ON 91
+  $LOOP_MSG[]="                                                            "
+  MODE=#SYNC
+  $H_POS=$H_POS
+  TECH_MOTION=FALSE
+  ;Automatik extern
+  IF $MODE_OP==#EX THEN
+    CWRITE($CMD,STAT,MODE,"RUN /R1/CELL()")
+  ENDIF
+  ;ENDFOLD (AUTOEXT INIT)
+  ;FOLD USER INIT;%{E}%V3.2.0,%MKUKATPBASIS,%CSPS,%VAUTOEXT,%P
+  ; Please insert user defined initialization commands
+;fin_ciclo_volteador=true
+
+
+  ;ENDFOLD (USER INIT)
+  ;ENDFOLD (INI)
+
+  LOOP
+
+     WAIT FOR NOT($POWER_FAIL)
+    ;FOLD ARC20 PLC;%{E}%V3.2.0,%MKUKATPA20,%CSPS,%VSPS,%P
+    IF ((ARC20==TRUE) AND (A10_OPTION==#DISABLED)) THEN
+      A20_TECH ( )
+    ENDIF
+    ;ENDFOLD (ARC20 PLC)
+    ;FOLD TOUCH PLC;%{E}%V3.2.0,%MKUKATPTS,%CSPS,%VSPS,%P
+    IF H70_OPTION THEN
+      IF ( NOT ($PRO_ACT) AND FG_ON_WORK AND ($OV_PRO==0)) THEN
+        IF (TOUCH_ACTIVE>0) AND (TOUCH_ACTIVE<5) THEN
+          IF TOUCH_O[TOUCH_ACTIVE].OUT_NR>0 THEN
+            $OUT[TOUCH_O[TOUCH_ACTIVE].OUT_NR]=FALSE
+          ENDIF
+        ENDIF
+        NOTAUS_TOUCH=TRUE ; error flag 
+        $OV_PRO=OV_PRO_OLD
+      ENDIF
+    ENDIF
+    ;ENDFOLD (TOUCH PLC)
+    ;FOLD GRP PLC;%{E}%V3.2.0,%MKUKATPGRP,%CSPS,%VSPS,%P
+    IF (ZANGEN_FUNKT>0) THEN
+      H50 (5,AKT_ZANGE,DUMMY,GDEFAULT )
+      ZANGEN_FUNKT=0
+    ENDIF
+    ;ENDFOLD (GRP PLC)
+    ;FOLD SPOT PLC;%{E}%V3.2.0,%MKUKATPSPOT,%CSPS,%VSPS,%P
+    ;Make your modifications here
+
+    ;ENDFOLD (SPOT PLC)
+    ;FOLD USER PLC;%{E}%V3.2.0,%MKUKATPUSER,%CSPS,%VSPS,%P
+    ;Make your modifications here
+;if (($aut) AND ($OV_PRO>30)) then
+; $ov_pro=30
+;endif
+
+
+    ;ENDFOLD (USER PLC)
+
+IF InFinCiclo THEN
+ bParadaManiobra=TRUE
+ENDIF
+
+IF OutPilotoMarcha THEN
+ OutPilotoParo=FALSE
+ELSE
+ OutPilotoParo=TRUE
+ENDIF
+
+;IF NOT InTermicoCinta THEN
+;  mos_mens(1)
+;ENDIF
+;  delmens()
+
+
+;Cinta()
+
+$out[33]=$out[13] ;Abrir pinza 1
+$out[34]=$out[14] ;Cerrar pinza 1
+$out[35]=$out[15] ;Abrir pinza 2
+$out[36]=$out[16] ;Cerrar pinza 2
+$out[41]=$out[1] ;Marcha motor
+$out[49]=$out[2] ;Marcha CNC1
+$out[50]=$out[3] ;Robot dentro torno
+$out[48]=$out[4] ;Piloto alarma
+$out[46]=$out[5] ;Piloto paro
+$out[45]=$out[6] ;Piloto marcha
+;$out[48]=$out[7] ;Robot fuera 
+$out[52]=$out[8] ;Abrir plato CNC1
+$out[53]=$out[9] ;Cerrar plato CNC1
+$out[54]=$out[10] ;Avance CP CNC1
+$out[55]=$out[11] ;Retroceso CP CNC1
+$out[56]=$out[12] ;Abrir luneta CNC1
+$out[57]=$out[17] ;Cerrar luneta CNC1
+;$out[48]=$out[18] ;Reserva
+;$out[48]=$out[19]
+;$out[48]=$out[20]
+;$out[48]=$out[21]
+;$out[48]=$out[22]
+;$out[48]=$out[23]
+$out[81]=$in[69] ;envio pinza 1 abierta a PLC
+$out[82]=$in[71] ;envio pinza 2 abierta a PLC
+$out[83]=$in[70] ;envio aire OK a PLC
+
+
+
+;$in[1]=$in[46] ;Pulsador marcha cinta
+;$in[2]=$in[46] ;Reserva
+;$in[3]=$in[49] ;Pulsador fin ciclo
+;$in[4]=$in[44] ;Pulsador marcha ciclo
+;$in[5]=$in[45] ;Pulsador paro ciclo
+;$in[6]=$in[42] ;Selector manual
+;$in[7]=$in[43] ;Selector automatico
+;$in[8]=$in[44] ;Borrado mensajes
+;$in[9]=$in[64] ;Termico cinta
+;$in[10]=$in[65] ;CP adelante CNC1
+;$in[11]=$in[62] ;Det parada cinta
+;$in[12]=$in[63] ;Det presencia pieza
+;$in[13]=$in[66] ;CP atras CNC1
+;$in[14]=$in[67] ;Plato abierto CNC1
+;$in[15]=$in[68] ;Plato cerrado CNC1
+;$in[16]=$in[69] ;Luneta abierta CNC1
+;$in[17]=$in[70] ;Luneta cerrada CNC1
+;$in[18]=$in[71] ;Permiso robot CNC1
+;$in[19]=$in[72] ;No alarma CNC1
+;$in[20]=$in[46] ;Aire OK
+;$in[21]=$in[46] ;Pinza 1 abierta
+;$in[22]=$in[46] ;Reserva
+;$in[23]=$in[46] ;Pinza 2 abierta
+;$in[24]=$in[46] ;Reserva
+;$in[25]=$in[73] ;Con robot CNC1
+;$in[26]=$in[74] ;Puerta abierta CNC1
+;$in[27]=$in[46] ;Reserva
+;$in[28]=$in[46]
+;$in[29]=$in[46]
+
+  ENDLOOP
+  ;FOLD ;%{H}
+  ;FOLD
+END
+;ENDFOLD
+
+DEF  A20_TECH ( )
+  IF ($PRO_STATE1==#P_STOP) THEN
+    A20 (TECH_STOP )
+  ENDIF
+END
+
+DEF  RESET_OUT ( )
+  INT N
+
+  $LOOP_MSG[]="                                                            "
+  IF REFLECT_PROG_NR == 1 THEN
+    FOR N = 0 TO PGNO_LENGTH - 1
+      $OUT[PGNO_FBIT_REFL + N] = FALSE
+    ENDFOR
+  ENDIF
+  IF (PGNO_REQ>0) THEN
+    $OUT[PGNO_REQ]=FALSE
+  ELSE
+    IF (PGNO_REQ<0) THEN
+      $OUT[-PGNO_REQ]=TRUE
+    ENDIF
+  ENDIF
+END
+
+;FOLD USER SUBROUTINE;%{H}%V3.2.0,%MKUKATPUSER,%CSPS,%VSPS,%P
+;Integrate your user defined subroutines
+
+;ENDFOLD (USER SUBROUTINE)
+;ENDFOLD

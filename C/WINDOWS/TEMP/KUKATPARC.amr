@@ -1,0 +1,546 @@
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\SAFE_OK]
+"Default"="TRUE"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\CONT]
+"Default"="C_DIS"
+"Shortcut"="CONT"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\CHANNEL[1,1]]
+"MAX_POINTS"="2"
+"PARA[1]"="13.00000"
+"PARA[2]"="39.00000"
+"PARA[3]"=" 40"
+"PARA[4]"=" 40"
+"PARA[5]"=" 40"
+"b[1]"="-.5"
+"m[1]"="3.84615384615385E-02"
+"b[2]"="-.5"
+"m[2]"="3.84615384615385E-02"
+"b[3]"="-.5"
+"m[3]"="3.84615384615385E-02"
+"b[4]"="-.5"
+"m[4]"="3.84615384615385E-02"
+"MIN"="13"
+"MAX"="39"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\CHANNEL[1,2]]
+"MAX_POINTS"="2"
+"PARA[1]"="0.0"
+"PARA[2]"="1000.000"
+"PARA[3]"=" 1001"
+"PARA[4]"=" 1001"
+"PARA[5]"=" 1001"
+"b[1]"="0"
+"m[1]"=".001"
+"b[2]"="0"
+"m[2]"=".001"
+"b[3]"="0"
+"m[3]"=".001"
+"b[4]"="0"
+"m[4]"=".001"
+"MIN"="0"
+"MAX"="1000"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\CHANNEL[2,1]]
+"MAX_POINTS"="2"
+"PARA[1]"="13.00000"
+"PARA[2]"="39.00000"
+"PARA[3]"=" 40"
+"PARA[4]"=" 40"
+"PARA[5]"=" 40"
+"b[1]"="-.5"
+"m[1]"="3.84615384615385E-02"
+"b[2]"="-.5"
+"m[2]"="3.84615384615385E-02"
+"b[3]"="-.5"
+"m[3]"="3.84615384615385E-02"
+"b[4]"="-.5"
+"m[4]"="3.84615384615385E-02"
+"MIN"="13"
+"MAX"="39"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\CHANNEL[2,2]]
+"MAX_POINTS"="2"
+"PARA[1]"="0.0"
+"PARA[2]"="1000.000"
+"PARA[3]"=" 1001"
+"PARA[4]"=" 1001"
+"PARA[5]"=" 1001"
+"b[1]"="0"
+"m[1]"=".001"
+"b[2]"="0"
+"m[2]"=".001"
+"b[3]"="0"
+"m[3]"=".001"
+"b[4]"="0"
+"m[4]"=".001"
+"MIN"="0"
+"MAX"="1000"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\CHANNEL[1,9]]
+"MIN"="0"
+"MAX"="25"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\CP_VEL]
+"Max"="2"
+"Default"="2.0"
+"Shortcut"="VEL"
+"Min"="0.001"
+"Step"="0.01"
+"Format"=" "
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\TOOL]
+"Shortcut"="TOOL"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\BASE]
+"Shortcut"="BASE"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\IPO_FRAME]
+"Shortcut"="extTCP"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\PTP_VEL]
+"Shortcut"="VEL"
+"Min"="1"
+"Max"="100"
+"Step"="1"
+"Default"=" 100"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\APO_DIS]
+"Min"="0"
+"Shortcut"="DIS"
+"Max"="100"
+"Step"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\APO_CPDIS]
+"Shortcut"="DIS"
+"Min"="0"
+"Max"="300"
+"Step"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\APO_FAC]
+"Shortcut"="FAC"
+"Min"="1"
+"Max"="100"
+"Step"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\GAS_PRE_T]
+"Shortcut"="PFT"
+"Min"="0"
+"Max"="1.5"
+"Step"="0.02"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\START_T]
+"Shortcut"="TIME"
+"Min"="0"
+"Max"="1.5"
+"Step"="0.01"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\Unit11]
+"Default"="Volt"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\S_ANA1]
+"Shortcut"="PWR"
+"Min"="13"
+"Max"="39"
+"Step"="0.1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\Unit12]
+"Default"="m/min"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\S_ANA2]
+"Shortcut"="WFD"
+"Min"="0"
+"Max"="1000"
+"Step"="0.1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\VEL]
+"Shortcut"="VEL"
+"Min"="0"
+"Max"="2"
+"Step"="0.05"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\W_ANA1]
+"Shortcut"="PWR"
+"Min"="13"
+"Max"="39"
+"Step"="0.1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\W_ANA2]
+"Shortcut"="WFD"
+"Min"="0"
+"Max"="1000"
+"Step"="0.1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\W_BURNBACK_T]
+"Shortcut"="BBT"
+"Min"="0"
+"Max"="1.5"
+"Step"="0.01"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\WEAVFIG_MECH]
+"Shortcut"="TYPE"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\WEAVLEN_MECH]
+"Shortcut"="LNG"
+"Min"="1.5"
+"Max"="12"
+"Step"="0.2"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\WEAVAMP_MECH]
+"Shortcut"="AMPL"
+"Min"="0"
+"Max"="15"
+"Step"="0.2"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\WEAVANG_MECH]
+"Shortcut"="WINKEL"
+"Min"="-180"
+"Max"="180"
+"Step"="2"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\END_TI]
+"Shortcut"="TIME"
+"Min"="0"
+"Max"="1.5"
+"Step"="0.01"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\ANA1_E]
+"Shortcut"="PWR"
+"Min"="13"
+"Max"="39"
+"Step"="0.1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\ANA2_E]
+"Shortcut"="WFD"
+"Min"="0"
+"Max"="1000"
+"Step"="0.1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\BURNBACK_T]
+"Shortcut"="BBT"
+"Min"="0"
+"Max"="1.5"
+"Step"="0.01"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\GAS_POST_T]
+"Shortcut"="PFT"
+"Min"="0"
+"Max"="1.5"
+"Step"="0.02"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\H_Gain]
+"Shortcut"="H_Gain"
+"Min"="0"
+"Max"="100"
+"Step"="5"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\V_Gain]
+"Shortcut"="V_Gain"
+"Min"="0"
+"Max"="100"
+"Step"="5"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\ACCUM_OFS]
+"Shortcut"="OFS"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\BIAS]
+"Shortcut"="BIAS"
+"Min"="-50"
+"Max"="50"
+"Step"="0.01"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\STS]
+"Shortcut"="STS"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\W_ANA3]
+"Shortcut"="Weld13"
+"Min"="0"
+"Max"="1000"
+"Step"="5"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\MOVETYPE]
+"Default"="LIN"
+"Shortcut"="IPO"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\POINT1]
+"Default"="P0"
+"Shortcut"="Point#"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\CP_VEL_PRE]
+"Default"="Vel="
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\CP_VEL_UNIT]
+"Default"="m/s"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\CP_PARAMS]
+"Default"="CPDAT0"
+"Shortcut"="Params"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\PTP_VEL_PRE]
+"Default"="Vel="
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\PTP_VEL_UNIT]
+"Default"="%"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\PTP_PARAMS]
+"Default"="PDAT0"
+"Shortcut"="Params"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\POINT2]
+"Default"="P0"
+"Shortcut"="TargetPoint#"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\WELD_MODE]
+"Default"="1"
+"Shortcut"="Mode"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\START_SET]
+"Default"="S"
+"Shortcut"="S_SET"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\COMMENT]
+"Default"="Naht0"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\WELD_SET]
+"Default"="W0"
+"Shortcut"="W_SET"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\END_SET]
+"Default"="E"
+"Shortcut"="E_SET"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\PS_CMD]
+"Default"="1"
+"Shortcut"="PS_CMD"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\SENS_SET]
+"Default"="T"
+"Shortcut"="SENS_SET"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\WRITELOG]
+"State"="True"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\TOOL\TOOL_DATA[1]]
+"Display"="[1] Tool1     "
+"Value"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\TOOL\TOOL_DATA[2]]
+"Display"="[2] Tool2     "
+"Value"="2"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\TOOL\TOOL_DATA[3]]
+"Display"="TOOL_DATA[3]"
+"Value"="3"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\TOOL\TOOL_DATA[4]]
+"Display"="TOOL_DATA[4]"
+"Value"="4"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\TOOL\TOOL_DATA[5]]
+"Display"="TOOL_DATA[5]"
+"Value"="5"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\TOOL\TOOL_DATA[6]]
+"Display"="TOOL_DATA[6]"
+"Value"="6"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\TOOL\TOOL_DATA[7]]
+"Display"="TOOL_DATA[7]"
+"Value"="7"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\TOOL\TOOL_DATA[8]]
+"Display"="TOOL_DATA[8]"
+"Value"="8"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\TOOL\TOOL_DATA[9]]
+"Display"="TOOL_DATA[9]"
+"Value"="9"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\TOOL\TOOL_DATA[10]]
+"Display"="TOOL_DATA[10]"
+"Value"="10"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\TOOL\TOOL_DATA[11]]
+"Display"="TOOL_DATA[11]"
+"Value"="11"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\TOOL\TOOL_DATA[12]]
+"Display"="TOOL_DATA[12]"
+"Value"="12"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\TOOL\TOOL_DATA[13]]
+"Display"="TOOL_DATA[13]"
+"Value"="13"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\TOOL\TOOL_DATA[14]]
+"Display"="TOOL_DATA[14]"
+"Value"="14"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\TOOL\TOOL_DATA[15]]
+"Display"="TOOL_DATA[15]"
+"Value"="15"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\TOOL\TOOL_DATA[16]]
+"Display"="TOOL_DATA[16]"
+"Value"="16"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\BASE\BASE_DATA[1]]
+"Display"="BASE_DATA[1]"
+"Value"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\BASE\BASE_DATA[2]]
+"Display"="BASE_DATA[2]"
+"Value"="2"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\BASE\BASE_DATA[3]]
+"Display"="BASE_DATA[3]"
+"Value"="3"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\BASE\BASE_DATA[4]]
+"Display"="BASE_DATA[4]"
+"Value"="4"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\BASE\BASE_DATA[5]]
+"Display"="BASE_DATA[5]"
+"Value"="5"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\BASE\BASE_DATA[6]]
+"Display"="BASE_DATA[6]"
+"Value"="6"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\BASE\BASE_DATA[7]]
+"Display"="BASE_DATA[7]"
+"Value"="7"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\BASE\BASE_DATA[8]]
+"Display"="BASE_DATA[8]"
+"Value"="8"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\BASE\BASE_DATA[9]]
+"Display"="BASE_DATA[9]"
+"Value"="9"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\BASE\BASE_DATA[10]]
+"Display"="BASE_DATA[10]"
+"Value"="10"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\BASE\BASE_DATA[11]]
+"Display"="BASE_DATA[11]"
+"Value"="11"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\BASE\BASE_DATA[12]]
+"Display"="BASE_DATA[12]"
+"Value"="12"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\BASE\BASE_DATA[13]]
+"Display"="BASE_DATA[13]"
+"Value"="13"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\BASE\BASE_DATA[14]]
+"Display"="BASE_DATA[14]"
+"Value"="14"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\BASE\BASE_DATA[15]]
+"Display"="BASE_DATA[15]"
+"Value"="15"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\BASE\BASE_DATA[16]]
+"Display"="BASE_DATA[16]"
+"Value"="16"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPARC\MOVETYPE\PTP]
+"Value"="PTP"
+
+

@@ -1,0 +1,5 @@
+DEFTP MyTech
+	DECL FOLD MyFold[1] 
+		MyFold[1]= ""
+	Decl InlineForm MyCmd={ FOLD[1] MyFold }
+ENDTP

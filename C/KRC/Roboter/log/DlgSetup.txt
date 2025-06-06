@@ -1,0 +1,525 @@
+16:16:55 (Setup 5.3.1) for (V)KR C,  Date(MMDDYYYY): 11-25-2016    Time: 16:16:55
+16:16:55  
+16:16:55    # error, should never occur (WINDOWS or the CD may be corrupted)
+16:16:55    ! warning (just for information, it is not an error)
+16:16:55    ? no entry found in the language database for that key.
+16:16:55    . no error, just for information
+16:16:55    + reading/writing ini-files
+16:16:55 ----------------------------------------------------------------------------
+16:16:55 .HKEY_LOCAL_MACHINE selected as default root
+16:16:55 !Error reading Registry: [SOFTWARE\KUKA Roboter GmbH\Version], Version, (result: -1)
+16:16:55 .
+16:16:55 .*** STEP1 (initial actions) ***********************************************
+16:16:55 .----- checking structure of source directory
+16:16:55 .E:\Internat\krcsetup\krc found
+16:16:55 .E:\Internat\krcsetup\Setup found
+16:16:55 .E:\Internat\krcsetup\windows found
+16:16:55 .E:\Internat\mada found
+16:16:56 +Reading IniFile: E:\Internat\krcsetup\setup\default.ini, [Settings], BackColor = C2FF0000
+16:16:56 +Reading IniFile: E:\Internat\krcsetup\setup\default.ini, [Settings], TitleColor = 00FFFF
+16:16:56 !Error reading IniFile: E:\Internat\krcsetup\setup\default.ini, [Settings], TitleFont, (result: -1)
+16:16:56 !Error reading IniFile: E:\Internat\krcsetup\setup\default.ini, [Settings], BackGroundBmp, (result: -1)
+16:16:56 .----- reading default.ini
+16:16:56 +Reading IniFile: E:\VERSION.INI, [Version], Name = KR C
+16:16:56 +Reading IniFile: E:\VERSION.INI, [Version], Version = V4.1.7 SP08
+16:16:56 +Reading IniFile: E:\VERSION.INI, [Version], Build = 317
+16:16:56 +Reading IniFile: E:\VERSION.INI, [Version], Customer = KUKA
+16:16:56 +Reading IniFile: E:\VERSION.INI, [Version], Date = 20050414
+16:16:56 .GetUserExeLangID: 0x40a
+16:16:56 .Windows-Language-ID: 040A
+16:16:56 +Reading IniFile: E:\Internat\krcsetup\setup\default.ini, [WinDir], 040A = SPANISH
+16:16:56 .Windows-Language-Dir: SPANISH
+16:16:56 .Installed Operating System, OS:          6
+16:16:56 .Installed Operating System, WinMajor:    4
+16:16:56 .Installed Operating System, WinMinor:    0
+16:16:56 .Installed Operating System, ServicePack: 
+16:16:56 .Operating system: Windows 9x
+16:16:56 .Reading IniFile-section: E:\Internat\krcsetup\setup\default.ini, [Operating System], 
+16:16:57 +Reading IniFile: E:\Internat\krcsetup\setup\default.ini, [Destination Path], DestPath = C:\KRC
+16:16:57 +Reading IniFile: E:\Internat\krcsetup\setup\default.ini, [Params], OfficePC = FALSE
+16:16:57 +Reading IniFile: E:\Internat\krcsetup\setup\default.ini, [Params], CustomerVersion = 1
+16:16:57 !Error reading IniFile: E:\Internat\krcsetup\setup\default.ini, [Params], VxWinLite, (result: -1)
+16:16:57 !Error reading IniFile: E:\Internat\krcsetup\setup\default.ini, [Params], CopyMada, (result: -1)
+16:16:57 +Reading IniFile: E:\Internat\krcsetup\setup\default.ini, [Params], IOBase = 0x260
+16:16:57 +Reading IniFile: E:\Internat\krcsetup\setup\default.ini, [Params], ISAIRQ = 0x5
+16:16:57 !Error reading IniFile: E:\Internat\krcsetup\setup\default.ini, [Params], InstallIkarus, (result: -1)
+16:16:57 +Reading IniFile: E:\Internat\krcsetup\setup\default.ini, [Robot], MachineDataPath = \Krc2\Kr125_HPCBS\floor
+16:16:57 +Reading IniFile: E:\Internat\krcsetup\setup\default.ini, [SaveWhere], SaveWhere = C:\KRC_OLDINST
+16:16:57 +Reading IniFile: E:\Internat\krcsetup\setup\default.ini, [Convert], init = TRUE
+16:16:57 +Reading IniFile: E:\Internat\krcsetup\setup\default.ini, [Convert], mada = TRUE
+16:16:57 +Reading IniFile: E:\Internat\krcsetup\setup\default.ini, [Convert], poweron = TRUE
+16:16:57 +Reading IniFile: E:\Internat\krcsetup\setup\default.ini, [Autostart], AutoStart = TRUE
+16:16:57 +Reading IniFile: E:\Internat\krcsetup\setup\default.ini, [CopyCD], CopyCD = TRUE
+16:16:57 +Reading IniFile: E:\Internat\krcsetup\setup\default.ini, [CopyCD], CopyWhere = D:\KRC1_CD
+16:16:57 +Reading IniFile: E:\Internat\krcsetup\setup\default.ini, [BootAfterInst], Boot = TRUE
+16:16:57 .Reading IniFile-section: E:\Internat\krcsetup\setup\default.ini, [Drivers], Default
+16:16:57 .E:\SPANISH found
+16:16:57 .----- prepare installation
+16:16:58 .CopyFiles: 1 from E:\Internat\krcsetup\windows\system\OLEAUT32.DLL to C:\WINDOWS\SYSTEM\OLEAUT32.DLL
+16:16:58 .CopyFiles: 1 from E:\Internat\krcsetup\windows\system\MSVCRT40.DLL to C:\WINDOWS\SYSTEM\MSVCRT40.DLL
+16:16:58 .CopyFiles: 1 from E:\Internat\krcsetup\windows\system\MSVCRT.DLL to C:\WINDOWS\SYSTEM\MSVCRT.DLL
+16:16:58 .CopyFiles: 1 from E:\Internat\krcsetup\windows\system\MSVCIRT.DLL to C:\WINDOWS\SYSTEM\MSVCIRT.DLL
+16:17:00 .CopyFiles: 1 from E:\Internat\krcsetup\windows\system\MFC42.DLL to C:\WINDOWS\SYSTEM\MFC42.DLL
+16:17:01 .CopyFiles: 1 from E:\Internat\krcsetup\windows\system\MSJET35.DLL to C:\WINDOWS\SYSTEM\MSJET35.DLL
+16:17:01 .CopyFiles: 1 from E:\Internat\krcsetup\windows\system\VBAJET32.DLL to C:\WINDOWS\SYSTEM\VBAJET32.DLL
+16:17:02 .CopyFiles: 1 from E:\Internat\krcsetup\windows\system\VBAR332.DLL to C:\WINDOWS\SYSTEM\VBAR332.DLL
+16:17:02 .HKEY_LOCAL_MACHINE selected as default root
+16:17:02 .Reading Registry: [\SOFTWARE\Microsoft\Windows\CurrentVersion], CommonFilesDir = C:\Archivos de programa\Archivos comunes
+16:17:02 .CopyFiles: 1 from E:\Internat\krcsetup\setup\DAO350.DLL to C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\DAO350.DLL
+16:17:03 .RegSvr: Register of C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\DAO350.DLL succeeded.
+16:17:03 !Error reading Registry: [SOFTWARE\KUKA Roboter GmbH\Version], Version, (result: -1)
+16:17:03 !Error reading Registry: [SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs], C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\DAO350.DLL, (result: -1)
+16:17:03 .Writing Registry: [SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs], C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\DAO350.DLL = 1
+16:17:03 .DAO file reference counter set
+16:17:03 .UseDLL: C:\WINDOWS\TEMP\_ISTMP0.DIR\Ctl3d32.dll (Result: 0)
+16:17:03 .UseDLL: C:\WINDOWS\TEMP\_ISTMP0.DIR\4759.DLL (Result: 0)
+16:17:03 .UseDLL: C:\WINDOWS\TEMP\_ISTMP0.DIR\KukaDB1_8S.dll (Result: 0)
+16:17:03 .UseDLL: C:\WINDOWS\TEMP\_ISTMP0.DIR\474f.DLL (Result: 0)
+16:17:04 .CopyFiles: 1 from E:\Internat\krcsetup\setup\setup.mdb to C:\WINDOWS\TEMP\_ISTMP0.DIR\setup.mdb
+16:17:04 .HKEY_CURRENT_USER selected as default root
+16:17:04 !Registry subtree couldn't be deleted: SOFTWARE\KUKA Roboter GmbH\SetupDataBase\LanguageDataBase's (Result: -1)
+16:17:04 .Key created, key: SOFTWARE\KUKA Roboter GmbH\SetupDataBase, class: 
+16:17:04 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\SetupDataBase\LanguageDatabase's], setup = C:\WINDOWS\TEMP\_ISTMP0.DIR\setup.mdb
+16:17:04 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\SetupDataBase\ConfigDatabase's], Kuka_con = C:\WINDOWS\TEMP\_ISTMP0.DIR\kuka_con.mdb
+16:17:05 .Registered: C:\WINDOWS\TEMP\_ISTMP0.DIR\KukaDbs.exe
+16:17:05 .
+16:17:05 .*** STEP2 (get current configuration) *************************************
+16:17:05 .----- existing installation
+16:17:05 .HKEY_LOCAL_MACHINE selected as default root
+16:17:05 !Error reading Registry: [SOFTWARE\KUKA Roboter GmbH\Version], InstallationDir, (result: -1)
+16:17:05 .HKEY_LOCAL_MACHINE selected as default root
+16:17:05 !Error reading Registry: [\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Cross.EXE], (Standard), (result: -1)
+16:17:05 !can't find old installation directory, set default to: C:\KRC
+16:17:05 !C:\KRC\mada not found
+16:17:05 !C:\KRC\Roboter\krc\r1\mada not found
+16:17:05 !C:\KRC\Roboter\krc\Steu\mada not found
+16:17:05 !Old installation not found: MADA directory
+16:17:05 !C:\KRC\init not found
+16:17:05 !C:\KRC\Roboter\init not found
+16:17:05 !Old installation not found: INIT directory
+16:17:05 !C:\KRC\PowerOn not found
+16:17:05 !C:\KRC\Roboter\krc\r1 not found
+16:17:05 !C:\KRC\Roboter\krc\Steu not found
+16:17:05 !Old installation not found: PowerOn directory
+16:17:05 !C:\KRC\Template not found
+16:17:05 !C:\KRC\Roboter\Template not found
+16:17:05 !Old installation not found: Template directory
+16:17:05 !old installation not found.
+16:17:05 .old init-directory: 
+16:17:05 .old cd-copy found.
+16:17:05 .HKEY_LOCAL_MACHINE selected as default root
+16:17:05 !Error reading Registry: [SOFTWARE\KUKA Roboter GmbH\Version], Version, (result: -1)
+16:17:05 .----- operating system
+16:17:05 .HKEY_CURRENT_USER selected as default root
+16:17:05 !Error reading Registry: [SOFTWARE\KUKA Roboter GmbH\DataBase], Language, (result: -1)
+16:17:05 .BOF-Language-ID: 
+16:17:05 .File version: C:\WINDOWS\SYSTEM\kernel32.dll = 4.0.0.950
+16:17:05 !File version not available. File not found: C:\WINDOWS\SYSTEM\mshtml.dll
+16:17:05 .----- installed tech-packs
+16:17:05 .HKEY_LOCAL_MACHINE selected as default root
+16:17:05 !Error reading Registry: [SOFTWARE\KUKA Roboter GmbH\KUKA BOF\BOF\Technology], TechPack1, (result: -1)
+16:17:05 .----- installed drivers
+16:17:05 !.\io_inf.ini not found
+16:17:05 !.\iosys.ini not found
+16:17:05 .----- reading setupKrc.ini
+16:17:08 !No setup file found
+16:17:08 +Reading IniFile: C:\WINDOWS\SYSTEM.INI, [LP-RTWin], IOBase = 0x260
+16:17:08 +Reading IniFile: C:\WINDOWS\SYSTEM.INI, [LP-RTWin], ISAIRQ = 0x5
+16:17:08 !Error reading IniFile: C:\WINDOWS\VxWin.ini, [Boot], Bootline, (result: -1)
+16:17:08 !Error reading IniFile: .\hw_inf.ini, [Version], Office, (result: -1)
+16:17:08 !Error reading IniFile: .\progress.ini, [STEUER], KUNDEN_VERSION, (result: -1)
+16:17:08 .CMDLINE Contents: -autosetup
+16:17:08 .AutoSetup started by command line parameter
+16:17:08 .automatic setup - ALWAYS convert everything - ignoring SetupKRC.INI settings
+16:17:08 .
+16:17:08 .*** STEP4 (prepare installation) ******************************************
+16:17:08 .test the space of drive C:
+16:17:08 .required  76801659
+16:17:08 .availible 2084175872
+16:17:08 .required diskspace availible for installation
+16:17:19 .test the space of drive D:
+16:17:19 .required  676185583
+16:17:19 .availible 2117372622
+16:17:19 .required diskspace availible for CD copy
+16:17:19 !C:\KRC\init not found
+16:17:19 !C:\KRC\Roboter\init not found
+16:17:19 !Old installation not found: INIT directory
+16:17:19 !C:\KRC\PowerOn not found
+16:17:19 !C:\KRC\Roboter\krc\r1 not found
+16:17:19 !C:\KRC\Roboter\krc\Steu not found
+16:17:19 !Old installation not found: PowerOn directory
+16:17:19 !C:\KRC\mada not found
+16:17:19 !C:\KRC\Roboter\krc\r1\mada not found
+16:17:19 !C:\KRC\Roboter\krc\Steu\mada not found
+16:17:19 !Old installation not found: MADA directory
+16:17:19 .Deleting old CD copy
+16:17:19 .DeleteFiles: 1 from D:\AUTOINST.INS
+16:17:19 .DeleteFiles: 1 from D:\DATA.TAG
+16:17:19 .DeleteFiles: 1 from D:\DATA1.CAB
+16:17:19 .DeleteFiles: 1 from D:\DLGSETUP.INS
+16:17:19 .DeleteFiles: 1 from D:\Kit.dll
+16:17:19 .DeleteFiles: 1 from D:\LANG.DAT
+16:17:19 .DeleteFiles: 1 from D:\LAYOUT.BIN
+16:17:19 .DeleteFiles: 1 from D:\OS.DAT
+16:17:19 .DeleteFiles: 1 from D:\SETUP.BMP
+16:17:19 .DeleteFiles: 1 from D:\SETUP.EXE
+16:17:19 .DeleteFiles: 1 from D:\SETUP.INI
+16:17:19 .DeleteFiles: 1 from D:\SETUP.INS
+16:17:19 .DeleteFiles: 1 from D:\SETUP.LID
+16:17:19 .DeleteFiles: 1 from D:\SETUPKRC.INI
+16:17:19 .DeleteFiles: 1 from D:\SP.exe
+16:17:19 .DeleteFiles: 1 from D:\VERSION.INI
+16:17:19 .DeleteFiles: 1 from D:\_INST32I.EX_
+16:17:19 .DeleteFiles: 1 from D:\_ISDEL.EXE
+16:17:19 .DeleteFiles: 1 from D:\_SETUP.DLL
+16:17:19 .DeleteFiles: 1 from D:\_SYS1.CAB
+16:17:19 .DeleteFiles: 1 from D:\_USER1.CAB
+16:17:20 .EraseDir: 13 in D:\INTERNAT
+16:17:20 !EraseDir: D:\KRC1_CD ... nothing to do!
+16:31:36 .CopyDir: 11705 from E:\INTERNAT to D:\KRC1_CD\INTERNAT
+16:31:38 .CopyFiles: 21 from E:\*.* to D:\KRC1_CD\*.*
+16:31:41 .CopyDir: 55 from E:\SPANISH to D:\SPANISH
+16:31:41 .
+16:31:41 .*** STEP5 (unreg old installation) ****************************************
+16:31:42 .HKEY_LOCAL_MACHINE\SOFTWARE\KUKA Roboter GmbH saved to C:\LM_KUKAROBOTERGMBH.~RE
+16:31:42 .Reading IniFile-section: D:\KRC1_CD\Internat\krcsetup\setup\default.ini, [Register], 
+16:31:43 ----- Deregistering files
+16:31:43 !File not found for (de-)registering: C:\WINDOWS\SYSTEM\COMDLG32.OCX
+16:31:43 !File not found for (de-)registering: C:\WINDOWS\SYSTEM\Comctl32.ocx
+16:31:43 !File not found for (de-)registering: C:\WINDOWS\SYSTEM\DBGRID32.OCX
+16:31:43 !File not found for (de-)registering: C:\WINDOWS\SYSTEM\DBLIST32.OCX
+16:31:43 !File not found for (de-)registering: C:\WINDOWS\SYSTEM\MSADODC.OCX
+16:31:43 !File not found for (de-)registering: C:\WINDOWS\SYSTEM\MSCOMCTL.OCX
+16:31:43 !File not found for (de-)registering: C:\WINDOWS\SYSTEM\MSFLXGRD.OCX
+16:31:43 !File not found for (de-)registering: C:\WINDOWS\SYSTEM\MSMASK32.OCX
+16:31:43 !File not found for (de-)registering: C:\WINDOWS\SYSTEM\PICCLP32.OCX
+16:31:43 !File not found for (de-)registering: C:\WINDOWS\SYSTEM\RICHTX32.OCX
+16:31:43 !File not found for (de-)registering: C:\WINDOWS\SYSTEM\SYSINFO.OCX
+16:31:43 !File not found for (de-)registering: C:\WINDOWS\SYSTEM\TABCTL32.OCX
+16:31:43 .HKEY_LOCAL_MACHINE selected as default root
+16:31:43 .Registry subtree deleted: SOFTWARE\KUKA Roboter GmbH
+16:31:43 .HKEY_USERS selected as default root
+16:31:43 !Registry subtree couldn't be deleted: .Default\SOFTWARE\VB and VBA Program Settings (Result: -1)
+16:31:43 .HKEY_CURRENT_USER selected as default root
+16:31:43 !Registry subtree couldn't be deleted: SOFTWARE\KUKA Roboter GmbH\Cross\Logging (Result: -1)
+16:31:43 .
+16:31:43 .*** STEP6 (save old installation) *****************************************
+16:31:43 .CreateDir: C:\KRC_OLDINST
+16:31:43 !RenameDir: C:\KRC\init to C:\KRC_OLDINST\init : No such file or directory
+16:31:43 !RenameDir: C:\KRC\mada to C:\KRC_OLDINST\mada : No such file or directory
+16:31:43 !RenameDir: C:\KRC\PowerOn to C:\KRC_OLDINST\PowerOn : No such file or directory
+16:31:43 !RenameDir: C:\KRC\ir_spec to C:\KRC_OLDINST\ir_spec : No such file or directory
+16:31:43 !RenameDir: C:\KRC\Template to C:\KRC_OLDINST\Template : No such file or directory
+16:31:43 !RenameDir: C:\KRC\Log to C:\KRC_OLDINST\Log : No such file or directory
+16:31:43 !CopyFiles: C:\KRC\*.* - C:\KRC_OLDINST\*.* ... no file found!
+16:31:43 !RenameDir: C:\KRC\Data to C:\KRC_OLDINST\Data : No such file or directory
+16:31:43 !CopyFiles: C:\WINDOWS\vxwin.ini - C:\KRC_OLDINST\vxwin.ini ... no file found!
+16:31:43 .CopyFiles: 1 from C:\WINDOWS\system.ini to C:\KRC_OLDINST\system.ini
+16:31:43 !CopyFiles: C:\KRC\lib\*.ini - C:\KRC_OLDINST\lib\*.ini ... no file found!
+16:31:43 .RenameFile: C:\LM_KUKAROBOTERGMBH.~RE to C:\KRC_OLDINST\LM_KUKAROBOTERGMBH.~RE
+16:31:43 .
+16:31:43 .*** STEP7 (delete old installation) ***************************************
+16:31:43 !no old installation found. nothing to do.
+16:31:43 .
+16:31:43 .*** STEP8 (install the new software) **************************************
+16:31:54 .CopyDirWithWinSysMethod: 63 from D:\KRC1_CD\Internat\krcsetup\windows to C:\WINDOWS
+16:31:54 .----- Copying system files for the (V)KR C
+16:32:45 .CopyDir: 502 from D:\KRC1_CD\Internat\krcsetup\KRC to C:\KRC
+16:32:45 .CopyFiles: 1 from D:\KRC1_CD\Internat\krcsetup\WINDOWS\vxwin.ini to C:\WINDOWS\vxwin.ini
+16:32:45 !CopyDir: D:\KRC1_CD\Internat\_Readme.1st - C:\KRC\_Readme.1st ... nothing to do!
+16:32:45 .CopyFiles: 1 from D:\KRC1_CD\Internat\krcsetup\setup\KUKAROB.BAT to C:\KUKAROB.BAT
+16:32:45 .CopyMadas: 'D:\KRC1_CD\INTERNAT\MADA\KRC2\KR125_HPCBS\FLOOR'
+16:32:45 !DeleteFiles: C:\KRC\Roboter\Krc\R1\Mada\*.* ... nothing to do!
+16:32:45 !DeleteFiles: C:\KRC\Roboter\Krc\Steu\Mada\*.* ... nothing to do!
+16:32:45 !CopyFiles: D:\KRC1_CD\INTERNAT\MADA\KRC2\COMMON_FILES\R1\*.* - C:\KRC\Roboter\Krc\R1\Mada\*.* ... no file found!
+16:32:45 !CopyFiles: D:\KRC1_CD\INTERNAT\MADA\KRC2\COMMON_FILES\Steu\*.* - C:\KRC\Roboter\Krc\Steu\Mada\*.* ... no file found!
+16:32:45 !CopyFiles: D:\KRC1_CD\INTERNAT\MADA\KRC2\COMMON_FILES\Servofiles\*.* - C:\KRC\Roboter\Krc\R1\Mada\*.* ... no file found!
+16:32:45 .CopyFiles: 6 from D:\KRC1_CD\INTERNAT\MADA\KRC2\KR125_HPCBS\FLOOR\R1\*.* to C:\KRC\Roboter\Krc\R1\Mada\*.*
+16:32:45 .CopyFiles: 6 from D:\KRC1_CD\INTERNAT\MADA\KRC2\KR125_HPCBS\FLOOR\Steu\*.* to C:\KRC\Roboter\Krc\Steu\Mada\*.*
+16:32:45 .Reading IniFile-section: D:\KRC1_CD\Internat\krcsetup\setup\default.ini, [Attributes], 
+16:32:45 .path added: 'C:\KRC\LIB' to C:\AUTOEXEC.BAT
+16:32:45 .Keyword 'KUKAROB.BAT'  not found in C:\AUTOEXEC.BAT
+16:32:45 !Keyword 'KUKAROB.BAT' not found in C:\AUTOEXEC.BAT
+16:32:45 .added: 'CALL c:\KUKAROB.BAT' to C:\AUTOEXEC.BAT
+16:32:45 .Executing: Kernel-Update...
+16:32:45 .Executed: C:\WINDOWS\SYSTEM\DEVINST.EXE /DEFINF "D:\SPANISH\KRNLUPD\W95Upd.inf"
+16:32:45 .Executing: Security Update...
+16:32:48 .Executed: C:\WINDOWS\SYSTEM\DEVINST.EXE /DEFINF "D:\SPANISH\MS00-017\95g_chk.inf"
+16:32:48 .Executing: VSERVER-Update...
+16:32:51 .Executed: D:\KRC1_CD\Internat\tools\NETWORK\VSERVER\VSERVUPD.EXE /Q:1 /R:N
+16:32:51 .Executing: Security Update...
+16:32:53 .Executed: D:\KRC1_CD\Internat\tools\NETWORK\WINSOCK2\259728.EXE /Q:1 /R:N
+16:32:53 .Executing: Y2K-Update...
+16:32:57 .Executed: D:\SPANISH\Y2K\W95Y2K.EXE /Q /C:"y2ksetup /ii /ai /nr"
+16:32:58 .Executing: Winsock2-Setup...
+16:33:01 .Executed: C:\WINDOWS\SYSTEM\DEVINST.EXE /WS2 "D:\KRC1_CD\Internat\tools\NETWORK\WINSOCK2\W95WS2SETUP.EXE" /Q:1 /R:N
+16:33:01 .Executing: Y2K-Update...
+16:33:09 .Executed: D:\KRC1_CD\Internat\tools\NETWORK\WINSOCK2\CORPUPD.EXE /Q:1 /R:N
+16:33:09 .Executing: Winsock2-Patch1...
+16:33:12 .Executed: C:\WINDOWS\SYSTEM\DEVINST.EXE /Q MultiFunction "D:\KRC1_CD\Internat\tools\NETWORK\WINSOCK2\wsock2.inf"
+16:33:12 .Executing: Winsock2-Patch2...
+16:33:15 .Executed: C:\WINDOWS\SYSTEM\DEVINST.EXE /Q MultiFunction "D:\KRC1_CD\Internat\tools\NETWORK\WINSOCK2\wspatch.inf"
+16:33:15 .Executing: HDD-Patch...
+16:33:18 .Executed: D:\KRC1_CD\Internat\tools\HDD\remideup.exe /Q
+16:33:18 .Executing: KUKA VGA-Update...
+16:33:26 .Executed: D:\KRC1_CD\Internat\tools\KUKAVGA\KUKA_VGA.EXE -Q
+16:33:26 .Executing: KUKA Mouse-Driver...
+16:33:27 .Executed: C:\WINDOWS\TEMP\_ISTMP0.DIR\DevInst.exe /Q Mouse "D:\KRC1_CD\Internat\tools\KukaMouse\LpActMou.inf"
+16:33:27 .Executing: IE5.5-Setup...
+16:34:55 .Executed: D:\KRC1_CD\Internat\tools\IE55\IE5SETUP.EXE /Q /C:"ie5wzd /B:D:\KRC1_CD\Internat\tools\IE55\iebatch.txt /S:""D:\KRC1_CD\Internat\tools\IE55\IE5SETUP.EXE"""
+16:34:55 .Executing: DCOM-Config...
+16:34:55 .Executed: D:\KRC1_CD\Internat\tools\DCOMCFG\DCM95CFG.EXE /Q
+16:34:55 .Executing: Instalando el detector de virus
+16:34:56 .Install new version of virusscanner
+16:34:56 .Uninstall virusscanner: C:\IKARUS\GUARD95\UNINSTAL.EXE C:\IKARUS\GUARD95\INSTALL.LOG
+16:34:56 !File not found at: C:\IKARUS\GUARD95\UNINSTAL.EXE
+16:34:56 !File not found at: C:\IKARUS\GUARD95\INSTALL.LOG
+16:34:56 !No virusscanner to uninstall!!!
+16:34:56 .Uninstall virusscanner: C:\IKARUS\VUW95\UNINSTAL.EXE C:\IKARUS\VUW95\INSTALL.LOG
+16:34:56 !File not found at: C:\IKARUS\VUW95\UNINSTAL.EXE
+16:34:56 !File not found at: C:\IKARUS\VUW95\INSTALL.LOG
+16:34:56 !No virusscanner to uninstall!!!
+16:34:56 .Uninstall virusscanner: C:\IKARUS\GUARDNT\UNINSTAL.EXE C:\IKARUS\GUARDNT\INSTALL.LOG
+16:34:56 !File not found at: C:\IKARUS\GUARDNT\UNINSTAL.EXE
+16:34:56 !File not found at: C:\IKARUS\GUARDNT\INSTALL.LOG
+16:34:56 !No virusscanner to uninstall!!!
+16:34:56 .Uninstall virusscanner: C:\IKARUS\VUWNT\UNINSTAL.EXE C:\IKARUS\VUWNT\INSTALL.LOG
+16:34:56 !File not found at: C:\IKARUS\VUWNT\UNINSTAL.EXE
+16:34:56 !File not found at: C:\IKARUS\VUWNT\INSTALL.LOG
+16:34:56 !No virusscanner to uninstall!!!
+16:34:56 .Insert reg file: D:\KRC1_CD\Internat\tools\VIRSCAN\VIRSCAN.REG
+16:34:56 .Install  virusscanner: D:\KRC1_CD\Internat\tools\VIRSCAN\SETUP.EXE @D:\KRC1_CD\INTERNAT\TOOLS\VIRSCAN\GUARDI~1.INI
+16:35:09 !EraseDir: C:\IKARUS\PATCH ... nothing to do!
+16:35:09 .DeleteFiles: C:\WINDOWS\SYSTEM\IkAutoUp.dat deleted
+16:35:09 .DeleteFiles: C:\WINDOWS\SYSTEM\IKAutoUp.cpl deleted
+16:35:09 .DeleteFiles: 2 from C:\WINDOWS\SYSTEM\IKAutoUp.*
+16:35:09 .Executed: D:\KRC1_CD\Internat\tools\VIRSCAN\INSTGUARD.EXE /Q "D:\KRC1_CD\Internat\tools\VIRSCAN" "C:\IKARUS"
+16:35:09 .D:\KRC1_CD\Internat\krcsetup\SETUP\LM_KukaRoboterGmbH.reg entered into the registry
+16:35:10 .D:\KRC1_CD\Internat\krcsetup\SETUP\HIP.reg entered into the registry
+16:35:10 .D:\KRC1_CD\Internat\krcsetup\SETUP\KRC1.reg entered into the registry
+16:35:10 .----- Update registry
+16:35:10 .HKEY_CURRENT_USER selected as default root
+16:35:10 .Key created, key: SOFTWARE\KUKA Roboter GmbH\DataBase, class: 
+16:35:10 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\DataBase\ConfigDatabase's], Kuka_con = C:\KRC\data\kuka_con.mdb
+16:35:10 .HKEY_LOCAL_MACHINE selected as default root
+16:35:10 .Key created, key: SOFTWARE\KUKA Roboter GmbH\DataBase, class: 
+16:35:10 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\DataBase\LanguageDatabase's], kuka_tab = C:\KRC\data\kuka_tab.mdb
+16:35:10 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\DataBase\ConfigDatabase's], Kuka_con = C:\KRC\data\kuka_con.mdb
+16:35:10 .Registered: C:\KRC\bin\KukaDb.exe
+16:35:10 .HKEY_LOCAL_MACHINE selected as default root
+16:35:10 .Key created, key: SOFTWARE\KUKA Roboter GmbH\Version, class: 
+16:35:10 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\Version], KRCVersion = KR C
+16:35:10 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\Version], Version = V4.1.7 SP08
+16:35:10 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\Version], Build = 317
+16:35:10 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\Version], Customer = KUKA
+16:35:10 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\Version], BackupDir = C:\KRC_OLDINST
+16:35:10 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\Version], InstallationDir = C:\KRC
+16:35:10 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\Version], MadaDir = \Krc2\Kr125_HPCBS\floor
+16:35:10 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\Version], Date = 20050414
+16:35:10 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\Version], CDCopyDir = D:\KRC1_CD
+16:35:10 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\Version], CDCopied = 1
+16:35:10 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\Version], InstallationDate = Date(MMDDYYYY): 11-25-2016    Time: 16:16:55
+16:35:10 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\Version], SetupVersion = 5.3.1
+16:35:10 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\Version], OfficeLite = 0
+16:35:10 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\Version], Update = 0
+16:35:10 !Error reading Registry: [SOFTWARE\KUKA Roboter GmbH\KUKA BOF\OCX Control's\UserMode\PassWord], KeyFile20, (result: -1)
+16:35:10 .Registry actualized
+16:35:10 .Reading IniFile-section: D:\KRC1_CD\Internat\krcsetup\setup\default.ini, [Register], 
+16:35:11 ----- Registering files
+16:35:11 .RegSvr: Register of C:\WINDOWS\SYSTEM\COMDLG32.OCX succeeded.
+16:35:11 .RegSvr: Register of C:\WINDOWS\SYSTEM\Comctl32.ocx succeeded.
+16:35:11 .RegSvr: Register of C:\WINDOWS\SYSTEM\DBGRID32.OCX succeeded.
+16:35:11 .RegSvr: Register of C:\WINDOWS\SYSTEM\DBLIST32.OCX succeeded.
+16:35:11 .RegSvr: Register of C:\WINDOWS\SYSTEM\MSADODC.OCX succeeded.
+16:35:11 .RegSvr: Register of C:\WINDOWS\SYSTEM\MSCOMCTL.OCX succeeded.
+16:35:11 .RegSvr: Register of C:\WINDOWS\SYSTEM\MSFLXGRD.OCX succeeded.
+16:35:11 .RegSvr: Register of C:\WINDOWS\SYSTEM\MSMASK32.OCX succeeded.
+16:35:11 .RegSvr: Register of C:\WINDOWS\SYSTEM\PICCLP32.OCX succeeded.
+16:35:11 .RegSvr: Register of C:\WINDOWS\SYSTEM\RICHTX32.OCX succeeded.
+16:35:11 .RegSvr: Register of C:\WINDOWS\SYSTEM\SYSINFO.OCX succeeded.
+16:35:11 .RegSvr: Register of C:\WINDOWS\SYSTEM\TABCTL32.OCX succeeded.
+16:35:11 .RegSvr: Register of C:\WINDOWS\SYSTEM\OLEAUT32.DLL succeeded.
+16:35:12 .RegSvr: Register of C:\WINDOWS\SYSTEM\MSSTDFMT.DLL succeeded.
+16:35:12 .RegSvr: Register of C:\WINDOWS\SYSTEM\atl.dll succeeded.
+16:35:12 .Registered: C:\KRC\bin\KukaDB.exe
+16:35:12 .Registered: C:\KRC\bin\KukaBof.exe
+16:35:12 .Registered: C:\KRC\bin\Cross3.exe
+16:35:12 .Registered: C:\KRC\bin\OleTest.exe
+16:35:12 .Registered: C:\KRC\util\CrossCommEXE.exe
+16:35:12 .RegSvr: Register of C:\KRC\lib\AnalogIO.ocx succeeded.
+16:35:12 .RegSvr: Register of C:\KRC\lib\Analyse.ocx succeeded.
+16:35:12 .RegSvr: Register of C:\KRC\lib\AnySim.ocx succeeded.
+16:35:12 .RegSvr: Register of C:\KRC\lib\AsciiConfig.ocx succeeded.
+16:35:12 .RegSvr: Register of C:\KRC\lib\AutoEx.ocx succeeded.
+16:35:12 .RegSvr: Register of C:\KRC\lib\BinOut.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\ConfigMon.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\Counter.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\Cross.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\DriverReset.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\ESCDiag.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\FileHandler2.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\Flag.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\GSGoem.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\Greifer.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\Gripper.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\HardKey.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\IconEdit.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\Interrupt.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\Justage.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\KUKAConfBackWardMove.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\KUKAUserStatKeyBar.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\Language.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\LogView.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\MSTEST.OCX succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\Meldung.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\MouseConfig.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\MoveStatKey.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\Notice.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\OfficeOPMode.ocx succeeded.
+16:35:13 .RegSvr: Register of C:\KRC\lib\OnlineHelp.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\ParaList.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\ParaStatKey.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\RobName.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\SensorData.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\Simulate.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\SoftKey.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\SystemDisplay.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\Technology.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\Timer.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\Tool.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\Trace.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\UserMode.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\UserScreen.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\UserStatKey.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\VarStatKey.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\Version.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\WebRobot.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\WorkSpaceMonitor.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\iopos.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\varkor.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\xedit.ocx succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\Cross3ADS.CIE succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\Cross3FTP.CIE succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\Cross3KCP.CIE succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\Cross3OLE2.CIE succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\Cross3Archive.CME succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\Cross3BOF.CME succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\Cross3Boot.CME succeeded.
+16:35:15 .RegSvr: Register of C:\KRC\lib\Cross3File.CME succeeded.
+16:35:16 .RegSvr: Register of C:\KRC\lib\Cross3Info.CME succeeded.
+16:35:16 .RegSvr: Register of C:\KRC\lib\Cross3Log.CME succeeded.
+16:35:16 .RegSvr: Register of C:\KRC\lib\Cross3Msg.CME succeeded.
+16:35:16 .RegSvr: Register of C:\KRC\lib\Cross3Upgrade.CME succeeded.
+16:35:16 .RegSvr: Register of C:\KRC\lib\TPA20.dll succeeded.
+16:35:16 .RegSvr: Register of C:\KRC\lib\TPARC.dll succeeded.
+16:35:16 .RegSvr: Register of C:\KRC\lib\TPBASIS.dll succeeded.
+16:35:16 .RegSvr: Register of C:\KRC\lib\TPEXPERT.dll succeeded.
+16:35:16 .RegSvr: Register of C:\KRC\lib\TPGRP.dll succeeded.
+16:35:16 .RegSvr: Register of C:\KRC\lib\TPSPOT.dll succeeded.
+16:35:16 .RegSvr: Register of C:\KRC\lib\TPTS.dll succeeded.
+16:35:16 .RegSvr: Register of C:\KRC\lib\TPUSER.dll succeeded.
+16:35:16 .RegSvr: Register of C:\KRC\lib\KukaForm.dll succeeded.
+16:35:16 .RegSvr: Register of C:\KRC\lib\KUKAReg.dll succeeded.
+16:35:16 .RegSvr: Register of C:\KRC\lib\WBF_Registry.dll succeeded.
+16:35:16 .RegSvr: Register of C:\KRC\lib\WBF_Time.dll succeeded.
+16:35:16 .RegSvr: Register of C:\KRC\lib\Rob2Web.dll succeeded.
+16:35:16 .RegSvr: Register of C:\KRC\lib\TechHandler.dll succeeded.
+16:35:16 .
+16:35:16 .*** STEP9 (convert and update) ********************************************
+16:35:16 .Reading IniFile-section: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], 
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;MFC = 0,mfcEntry,mfcdrv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;INTERBUS = 1,ibusInit,ibusdrv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;DEVNET = 2,dnInit,dndrv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;BOSCH = 3,boschInit,boschdrv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;PERCEPTRON = 4,percInit,percdrv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;SBIP = 5,sbipInit,sbipdrv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;FIPIO = 6,fipioInit,fipiodrv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;PROFISL = 7,pbslInit,pfbsldrv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;PROFIMA = 8,pbmaInit,pfbmadrv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;RIO = 9,rioInit,riodrv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;LIBO = 10,liboInit,libodrv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;PBMASL = 11,pbmsInit,pfbmsdrv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;DNSC1 = 12,dnsc1Init,dnsc1drv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;DNSC2 = 13,dnsc2Init,dnsc2drv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;DSEIO = 14,dseIoInit,dseiodrv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;INTERBUSPCI = 15,ibsCPPciInit,ibpcidrv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;CNKE1 = 16,cnke1CPInit,cnke1drv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;DNSC3 = 17,dnsc3Init,dnsc3drv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;DNSC4 = 18,dnsc4Init,dnsc4drv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;DNSC5 = 19,dnsc5Init,dnsc5drv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;DNSC6 = 20,dnsc6Init,dnsc6drv.o
+16:35:16 +Writing IniFile: C:\KRC\Roboter\Init\iosys.ini, [DRIVERS], ;CNKE2 = 21,cnke2CPInit,cnke2drv.o
+16:35:16 .----- checking for converting files
+16:35:16 .Init files will not be converted
+16:35:16 .PowerOn files will not be converted
+16:35:16 .Mada files will not be converted
+16:35:16 !CopyFiles: C:\KRC_OLDINST\data\kuka_con.mdb - C:\KRC\data\kuka_con.mdb ... no file found!
+16:35:16 !CopyFiles: C:\KRC_OLDINST\log\MakroMaker.log - C:\KRC\Roboter\log\MakroMaker.log ... no file found!
+16:35:16 !CopyDir: C:\KRC_OLDINST\ir_spec - C:\KRC\Roboter\ir_spec ... nothing to do!
+16:35:16 !C:\KRC_OLDINST\ir_spec not found
+16:35:16 +Writing IniFile: C:\KRC\Roboter\init\MenueKeyKUKA.ini, [SOFTKEYS], miWebDiag = WebDiag, 999, ROB2WEB, http://KRCPC/Index.htm;1
+16:35:16 +Writing IniFile: C:\WINDOWS\SYSTEM.INI, [LP-RTWin], IOBase = 0x260
+16:35:16 +Writing IniFile: C:\WINDOWS\SYSTEM.INI, [LP-RTWin], ISAIRQ = 0x5
+16:35:16 +Writing IniFile: C:\KRC\Roboter\init\hw_inf.ini, [Version], office = FALSE
+16:35:16 +Writing IniFile: C:\KRC\Roboter\init\progress.ini, [STEUER], KUNDEN_VERSION = 1
+16:35:16 .S4R: Get the TrafoName for the actual mada typ.
+16:35:16 .S4R: Actual TrafoName: #KR125_1 H C2 FLR ZH01
+16:35:16 +Reading IniFile: C:\KRC\Roboter\init\hw_inf.ini, [DSE-CAN], dsefile1 = AUTOMATIC
+16:35:16 .S4R: Update mada version in registry.
+16:35:16 .HKEY_LOCAL_MACHINE selected as default root
+16:35:16 +Reading IniFile: C:\KRC\Roboter\init\SoftKeyKuka.ini, [Version], Version = 4.1.19
+16:35:16 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\Version\INI], SoftKeyKuka = 4.1.19
+16:35:16 !Error reading IniFile: C:\KRC\Roboter\init\SoftKeyUser.ini, [Version], Version, (result: -1)
+16:35:16 .HKEY_LOCAL_MACHINE selected as default root
+16:35:16 +Reading IniFile: C:\KRC\Roboter\init\MenueKeyKuka.ini, [Version], Version = 4.1.18
+16:35:16 .Writing Registry: [SOFTWARE\KUKA Roboter GmbH\Version\INI], MenueKeyKuka = 4.1.18
+16:35:16 !Error reading IniFile: C:\KRC\Roboter\init\MenueKeyUser.ini, [Version], Version, (result: -1)
+16:35:16 .Executing: Virus-Pattern Update... (This may take several minutes)
+16:35:16 .KUKA - Ikarus Pattern Update
+16:35:16 .============================================================================
+16:35:16 .Check whether 'VuW32.exe' is running
+16:35:16 .CopyFiles: 1 from C:\Ikarus\Guard95\T2Sigs.vdb to C:\Ikarus\Guard95\T2Sigs.~vd
+16:35:17 .CopyFiles: 1 from C:\Ikarus\VuW95\T2Sigs.vdb to C:\Ikarus\VuW95\T2Sigs.~vd
+16:35:17 .CopyFiles: 1 from C:\Ikarus\VuW95\T2rmv.vdb to C:\Ikarus\VuW95\T2rmv.~vd
+16:35:28 .CopyFiles: 1 from D:\KRC1_CD\INTERNAT\TOOLS\VIRSCAN\PATTERN\T2Sigs.vdb to C:\Ikarus\Guard95\T2Sigs.vdb
+16:35:29 .CopyFiles: 1 from D:\KRC1_CD\INTERNAT\TOOLS\VIRSCAN\PATTERN\T2Sigs.vdb to C:\Ikarus\VuW95\T2Sigs.vdb
+16:35:29 .CopyFiles: 1 from D:\KRC1_CD\INTERNAT\TOOLS\VIRSCAN\PATTERN\T2rmv.vdb to C:\Ikarus\VuW95\T2rmv.vdb
+16:35:29 .update successfully finished
+16:35:29 .Executed: D:\KRC1_CD\Internat\tools\VIRSCAN\PATTERN\PUPD.EXE /Q /N
+16:35:29 .Executing: Registrando archivos
+16:35:29 .Executed: C:\WINDOWS\Regtlib.exe C:\KRC\lib\kukainterfaces.tlb
+16:35:29 .Writing Registry: [SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce], Q323759 = D:\KRC1_CD\Internat\tools\IE55Update\q323759.exe /Q:1 /R:N
+16:35:29 .Writing Registry: [SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce], Data Access 2.1... = D:\KRC1_CD\Internat\tools\ADO\mdac_typ.exe /Q /C:"setup.exe /QN1"
+16:35:29 .Writing Registry: [SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce], PWS40 = C:\WINDOWS\SYSTEM\DEVINST.EXE /PWS "D:\KRC1_CD\Internat\tools\pws\SETUP.EXE" "/u:D:\KRC1_CD\Internat\tools\pws\Unattend.txt" "/s:D:\KRC1_CD\Internat\tools\pws" "/R:N"
+16:35:29 .
+16:35:29 .*** STEP10 (final actions) ************************************************
+16:35:29 !CopyDir: c:\KrcLinks - C:\WINDOWS\Menú Inicio\Programas\Inicio\ ... nothing to do!
+16:35:29 !EraseDir: c:\KrcLinks ... nothing to do!
+16:35:29 .----- checking C:\WINDOWS\Menú Inicio\Programas\Inicio\
+16:35:29 .----- checking C:\WINDOWS\Menú Inicio\Programas\KUKA
+16:35:29 .Cross3 inserted in C:\WINDOWS\Menú Inicio\Programas\Inicio\
+16:35:29 .XchgFile: CmdLine "C:\AUTOEXEC.BAT | C:\WINDOWS\TEMP\_ISTMP0.DIR\Autoexec.add"
+16:35:29 .Kit-Dll loaded from: C:\WINDOWS\SYSTEM\KIT.DLL
+16:35:29 .reading: C:\AUTOEXEC.BAT
+16:35:30 .----- block operation: [RemoveKeyb] -----
+16:35:30 .'KEYB' replaced by 'REM _keyb': 1 times
+16:35:30 .----- block operation: [DeleteShutDown] -----
+16:35:30 !block not found
+16:35:30 .----- block operation: [AddShutDown] -----
+16:35:30 !no entry found: C:\WINDOWS\TEMP\_ISTMP0.DIR\AUTOEXEC.ADD, [AddShutDown], Before
+16:35:30 !no entry found: C:\WINDOWS\TEMP\_ISTMP0.DIR\AUTOEXEC.ADD, [AddShutDown], Start
+16:35:30 !no entry found: C:\WINDOWS\TEMP\_ISTMP0.DIR\AUTOEXEC.ADD, [AddShutDown], End
+16:35:30 .reading: C:\WINDOWS\TEMP\_ISTMP0.DIR\shutdown.txt
+16:35:30 .insert block after line 6: CALL c:\KUKAROB.BAT
+16:35:30 .writing: C:\AUTOEXEC.BAT
+16:35:30 .XchgFile: success
+16:35:30 .old ProductId: 13995-OEM-0000833-94802  ,new ProductId: 13995-OEM-0000833-94802
+16:35:30 .VersionNumber = 4.00.950
+16:35:30 +Writing IniFile: C:\WINDOWS\system.ini, [boot], keyboard.drv = keyboard.drv
+16:35:30 +Writing IniFile: C:\WINDOWS\system.ini, [NonWindowsApp], TTInitialSizes = 4 5 6 7 8 9 10 11 12 13 14 15 16 18 20 22
+16:35:30 +Writing IniFile: C:\WINDOWS\system.ini, [vcache], MinFileCache = 512
+16:35:30 +Writing IniFile: C:\WINDOWS\system.ini, [vcache], MaxFileCache = 3072
+16:35:30 +Writing IniFile: C:\MSDOS.SYS, [Options], BootGUI = 0
+16:35:30 +Writing IniFile: C:\MSDOS.SYS, [Options], BootMenuDefault = 6
+16:35:30 .RenameFile: C:\WINDOWS\SYSTEM\iosubsys\hsflop.pdr to C:\WINDOWS\SYSTEM\iosubsys\hsflop_w.pdr
+16:35:30 .Installation of KR C V4.1.7 SP08 from 20050414 for KUKA finished.

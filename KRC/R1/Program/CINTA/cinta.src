@@ -1,0 +1,91 @@
+&ACCESS RVP
+&REL 4
+&PARAM TEMPLATE = C:\KRC\Roboter\Template\vorgabe
+&PARAM EDITMASK = *
+DEF cinta( )
+  
+;***********************************************************
+;***********************************************************
+;                 CINTA  SUPERIOR
+;***********************************************************
+;***********************************************************
+
+
+IF OutMarchaCinta==FALSE THEN
+  $TIMER_STOP[1]=TRUE
+ENDIF
+
+IF ((InTermicoCinta) AND (NOT bRobotEnCintaSup)) THEN 
+
+  IF ((InMarchaCinta) OR (bMarchaCintaSuperior))  THEN 
+   bPulsoCintaSup=TRUE
+   $TIMER_STOP[1]=TRUE
+   $TIMER[1]=(-nTiempoCintaSup*1000)
+   $TIMER_STOP[1]=FALSE
+  ENDIF
+
+
+ IF InPulsadorParo==FALSE THEN
+      OutMarchaCinta=FALSE 
+      bPulsoCintaSup=FALSE
+      bCintaSupGirando=FALSE
+      bMarchaCintaSuperior=FALSE
+ ENDIF
+
+ ;=====================MANUAL=======================
+ IF InSelecManual AND NOT InSelecAuto THEN
+
+  IF bPulsoCintaSup THEN
+   OutMarchaCinta=TRUE 
+  ENDIF
+
+  IF OutMarchaCinta AND Not InDetParadaCinta THEN
+    bCintaSupGirando=TRUE
+  ENDIF
+
+  IF bPulsoCintaSup AND bCintaSupGirando AND InDetParadaCinta THEN
+      OutMarchaCinta=FALSE 
+      bPulsoCintaSup=FALSE
+      bCintaSupGirando=FALSE
+      bMarchaCintaSuperior=FALSE
+  ENDIF
+ ENDIF
+ ;==================================================
+
+
+ ;=====================AUTOMATICO===================
+ IF NOT InSelecManual AND InSelecAuto THEN
+
+  IF ((bPulsoCintaSup)AND((NOT InPresPiezaCinta)OR(NOT InDetParadaCinta))) THEN
+   OutMarchaCinta=TRUE 
+  ELSE
+   OutMarchaCinta=FALSE 
+   bPulsoCintaSup=FALSE
+   bCintaSupGirando=FALSE
+   bMarchaCintaSuperior=FALSE
+  ENDIF
+
+  IF OutMarchaCinta AND Not InDetParadaCinta THEN
+    bCintaSupGirando=TRUE
+  ENDIF
+
+  IF bPulsoCintaSup AND bCintaSupGirando AND InDetParadaCinta AND (InPresPiezaCinta OR $TIMER_FLAG[1]) THEN
+      OutMarchaCinta=FALSE 
+      bPulsoCintaSup=FALSE
+      bCintaSupGirando=FALSE
+      bMarchaCintaSuperior=FALSE
+  ENDIF
+
+ ENDIF
+
+
+
+
+ELSE
+      OutMarchaCinta=FALSE 
+      bPulsoCintaSup=FALSE
+      bCintaSupGirando=FALSE
+      bMarchaCintaSuperior=FALSE
+      $TIMER_STOP[1]=TRUE
+ENDIF
+END

@@ -1,0 +1,59 @@
+DEFTP TORQMON={SOT FALSE}
+
+;**********************************************************************************
+;UserTech for Torqmonitoring; may 1999
+;**********************************************************************************
+
+; local parameters for SetLimits-inlineformulare:
+Decl PARAM limit1={SHORTNAME[] "Axis 1: ",VALUE {NUMBER:MIN 5,MAX 200,DEFAULT 50},UNIT[] " %"}
+Decl PARAM limit2={SHORTNAME[] "Axis 2: ",VALUE {NUMBER:MIN 5,MAX 200,DEFAULT 50},UNIT[] " %"}
+Decl PARAM limit3={SHORTNAME[] "Axis 3: ",VALUE {NUMBER:MIN 5,MAX 200,DEFAULT 50},UNIT[] " %"}
+Decl PARAM limit4={SHORTNAME[] "Axis 4: ",VALUE {NUMBER:MIN 5,MAX 200,DEFAULT 50},UNIT[] " %"}
+Decl PARAM limit5={SHORTNAME[] "Axis 5: ",VALUE {NUMBER:MIN 5,MAX 200,DEFAULT 50},UNIT[] " %"}
+Decl PARAM limit6={SHORTNAME[] "Axis 6: ",VALUE {NUMBER:MIN 5,MAX 200,DEFAULT 50},UNIT[] " %"}
+
+;********************************************************************************
+
+; if $ADAP_ACC=#NONE do message
+DEFSCRIPT NotAllowedMessage 
+MESSAGE "AdapAccIsNone"
+DO CANCELINLINEFORM 
+ENDSCRIPT
+
+; check $ADAP_ACC<>#NONE
+DEFSCRIPT Check_ADAP_ACC
+SWITCH "$ADAP_ACC"
+CASE #NONE DO NotAllowedMessage
+CASE ELSE DO ACCEPTINLINEFORM
+ENDSWITCH
+ENDSCRIPT 
+
+;********************************************************************************
+
+; setting width of tolerance band default
+DECL FOLD SetDefaults_Fold[6]
+SetDefaults_Fold[1] = "$TORQMON[1]=$TORQMON_DEF[1]"
+SetDefaults_Fold[2] = "$TORQMON[2]=$TORQMON_DEF[2]"
+SetDefaults_Fold[3] = "$TORQMON[3]=$TORQMON_DEF[3]"
+SetDefaults_Fold[4] = "$TORQMON[4]=$TORQMON_DEF[4]"
+SetDefaults_Fold[5] = "$TORQMON[5]=$TORQMON_DEF[5]"
+SetDefaults_Fold[6] = "$TORQMON[6]=$TORQMON_DEF[6]"
+
+; setting width of tolerance band individual
+DECL FOLD SetLimits_Fold[6]
+SetLimits_Fold[1] = "$TORQMON[1]=%limit1 "
+SetLimits_Fold[2] = "$TORQMON[2]=%limit2 "
+SetLimits_Fold[3] = "$TORQMON[3]=%limit3 "
+SetLimits_Fold[4] = "$TORQMON[4]=%limit4 "
+SetLimits_Fold[5] = "$TORQMON[5]=%limit5 "
+SetLimits_Fold[6] = "$TORQMON[6]=%limit6 "
+
+;*************************************************************************************************************************
+ 
+Decl InlineForm SetDefaults={FOLD[1] SetDefaults_Fold, ONACCEPT Check_ADAP_ACC}
+
+Decl InlineForm SetLimits={FOLD[1] SetLimits_Fold, PARAM[1] limit1, PARAM[2] limit2, PARAM[3] limit3, _
+PARAM[4] limit4, PARAM[5] limit5, PARAM[6] limit6, ONACCEPT Check_ADAP_ACC}
+
+ENDTP
+

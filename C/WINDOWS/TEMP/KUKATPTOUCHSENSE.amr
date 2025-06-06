@@ -1,0 +1,317 @@
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE]
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\WRITELOG]
+"State"="True"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\CP_VEL]
+"Max"="2"
+"Default"="2.0"
+"Shortcut"="VEL"
+"Min"="0.001"
+"Step"="0.01"
+"Format"=" "
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\CAL_MODE]
+"Shortcut"="CAL_MODE"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\TOOL]
+"Shortcut"="TOOL"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\BASE]
+"Shortcut"="BASE"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\IPO_FRAME]
+"Shortcut"="extTCP"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\PTP_VEL]
+"Shortcut"="VEL"
+"Min"="1"
+"Max"="100"
+"Step"="1"
+"Default"=" 100"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\APO_DIS]
+"Shortcut"="DIS"
+"Min"="1"
+"Max"="100"
+"Step"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\APO_FAC]
+"Shortcut"="FAC"
+"Min"="1"
+"Max"="100"
+"Step"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\CDx1]
+"Default"="-1"
+"Min"="-1"
+"Max"="999"
+"Step"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\CDx2]
+"Default"="-1"
+"Min"="-1"
+"Max"="999"
+"Step"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\CDx3]
+"Default"="-1"
+"Min"="-1"
+"Max"="999"
+"Step"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\CDx4]
+"Default"="-1"
+"Min"="-1"
+"Max"="999"
+"Step"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\CDx5]
+"Default"="-1"
+"Min"="-1"
+"Max"="999"
+"Step"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\CDx6]
+"Default"="-1"
+"Min"="-1"
+"Max"="999"
+"Step"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\ADV]
+"Default"="1"
+"Shortcut"="ADV"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\CD1]
+"Default"="CD0"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\CD2]
+"Default"="CD0"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\CD3]
+"Default"="CD0"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\POINT1]
+"Default"="P0"
+"Shortcut"="Point#"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\CP_VEL_PRE]
+"Default"="Vel="
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\CP_VEL_UNIT]
+"Default"="m/s"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\CP_PARAMS]
+"Default"="CPDAT0"
+"Shortcut"="Params"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\POINT2]
+"Default"="P0"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\CD]
+"Default"="CD0"
+"Shortcut"="SEARCH_SET"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\PA]
+"Default"="PA0"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\PTP_VEL_PRE]
+"Default"="Vel="
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\PTP_VEL_UNIT]
+"Default"="%"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\PTP_PARAMS]
+"Default"="PDAT0"
+"Shortcut"="Params"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\TOOL\TOOL_DATA[1]]
+"Display"="[1] Tool1     "
+"Value"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\TOOL\TOOL_DATA[2]]
+"Display"="[2] Tool2     "
+"Value"="2"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\TOOL\TOOL_DATA[3]]
+"Display"="TOOL_DATA[3]"
+"Value"="3"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\TOOL\TOOL_DATA[4]]
+"Display"="TOOL_DATA[4]"
+"Value"="4"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\TOOL\TOOL_DATA[5]]
+"Display"="TOOL_DATA[5]"
+"Value"="5"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\TOOL\TOOL_DATA[6]]
+"Display"="TOOL_DATA[6]"
+"Value"="6"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\TOOL\TOOL_DATA[7]]
+"Display"="TOOL_DATA[7]"
+"Value"="7"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\TOOL\TOOL_DATA[8]]
+"Display"="TOOL_DATA[8]"
+"Value"="8"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\TOOL\TOOL_DATA[9]]
+"Display"="TOOL_DATA[9]"
+"Value"="9"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\TOOL\TOOL_DATA[10]]
+"Display"="TOOL_DATA[10]"
+"Value"="10"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\TOOL\TOOL_DATA[11]]
+"Display"="TOOL_DATA[11]"
+"Value"="11"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\TOOL\TOOL_DATA[12]]
+"Display"="TOOL_DATA[12]"
+"Value"="12"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\TOOL\TOOL_DATA[13]]
+"Display"="TOOL_DATA[13]"
+"Value"="13"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\TOOL\TOOL_DATA[14]]
+"Display"="TOOL_DATA[14]"
+"Value"="14"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\TOOL\TOOL_DATA[15]]
+"Display"="TOOL_DATA[15]"
+"Value"="15"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\TOOL\TOOL_DATA[16]]
+"Display"="TOOL_DATA[16]"
+"Value"="16"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\BASE\BASE_DATA[1]]
+"Display"="BASE_DATA[1]"
+"Value"="1"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\BASE\BASE_DATA[2]]
+"Display"="BASE_DATA[2]"
+"Value"="2"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\BASE\BASE_DATA[3]]
+"Display"="BASE_DATA[3]"
+"Value"="3"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\BASE\BASE_DATA[4]]
+"Display"="BASE_DATA[4]"
+"Value"="4"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\BASE\BASE_DATA[5]]
+"Display"="BASE_DATA[5]"
+"Value"="5"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\BASE\BASE_DATA[6]]
+"Display"="BASE_DATA[6]"
+"Value"="6"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\BASE\BASE_DATA[7]]
+"Display"="BASE_DATA[7]"
+"Value"="7"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\BASE\BASE_DATA[8]]
+"Display"="BASE_DATA[8]"
+"Value"="8"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\BASE\BASE_DATA[9]]
+"Display"="BASE_DATA[9]"
+"Value"="9"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\BASE\BASE_DATA[10]]
+"Display"="BASE_DATA[10]"
+"Value"="10"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\BASE\BASE_DATA[11]]
+"Display"="BASE_DATA[11]"
+"Value"="11"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\BASE\BASE_DATA[12]]
+"Display"="BASE_DATA[12]"
+"Value"="12"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\BASE\BASE_DATA[13]]
+"Display"="BASE_DATA[13]"
+"Value"="13"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\BASE\BASE_DATA[14]]
+"Display"="BASE_DATA[14]"
+"Value"="14"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\BASE\BASE_DATA[15]]
+"Display"="BASE_DATA[15]"
+"Value"="15"
+
+
+[\CurrentUser\Software\VB and VBA Program Settings\KUKATPTOUCHSENSE\BASE\BASE_DATA[16]]
+"Display"="BASE_DATA[16]"
+"Value"="16"
+
+
