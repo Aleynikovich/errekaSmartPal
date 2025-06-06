@@ -42,90 +42,89 @@ DEF  SPS ( )
 
      WAIT FOR NOT($POWER_FAIL)
 
-;ENDFOLD (USER PLC)
 
-IF InFinCiclo THEN
- bParadaManiobra=TRUE
-ENDIF
+    IF InFinCiclo THEN
+    bParadaManiobra=TRUE
+    ENDIF
 
-IF OutPilotoMarcha THEN
- OutPilotoParo=FALSE
-ELSE
- OutPilotoParo=TRUE
-ENDIF
+    IF OutPilotoMarcha THEN
+    OutPilotoParo=FALSE
+    ELSE
+    OutPilotoParo=TRUE
+    ENDIF
 
-;IF NOT InTermicoCinta THEN
-;  mos_mens(1)
-;ENDIF
-;  delmens()
-
-
-;Cinta()
-
-$out[33]=$out[13] ;Abrir pinza 1
-$out[34]=$out[14] ;Cerrar pinza 1
-$out[35]=$out[15] ;Abrir pinza 2
-$out[36]=$out[16] ;Cerrar pinza 2
-$out[41]=$out[1] ;Marcha motor
-$out[49]=$out[2] ;Marcha CNC1
-$out[50]=$out[3] ;Robot dentro torno
-$out[48]=$out[4] ;Piloto alarma
-$out[46]=$out[5] ;Piloto paro
-$out[45]=$out[6] ;Piloto marcha
-;$out[48]=$out[7] ;Robot fuera 
-$out[52]=$out[8] ;Abrir plato CNC1
-$out[53]=$out[9] ;Cerrar plato CNC1
-$out[54]=$out[10] ;Avance CP CNC1
-$out[55]=$out[11] ;Retroceso CP CNC1
-$out[56]=$out[12] ;Abrir luneta CNC1
-$out[57]=$out[17] ;Cerrar luneta CNC1
-;$out[48]=$out[18] ;Reserva
-;$out[48]=$out[19]
-;$out[48]=$out[20]
-;$out[48]=$out[21]
-;$out[48]=$out[22]
-;$out[48]=$out[23]
-$out[81]=$in[69] ;envio pinza 1 abierta a PLC
-$out[82]=$in[71] ;envio pinza 2 abierta a PLC
-$out[83]=$in[70] ;envio aire OK a PLC
+    ;IF NOT InTermicoCinta THEN
+    ;  mos_mens(1)
+    ;ENDIF
+    ;  delmens()
 
 
+    ;Cinta()
 
-;$in[1]=$in[46] ;Pulsador marcha cinta
-;$in[2]=$in[46] ;Reserva
-;$in[3]=$in[49] ;Pulsador fin ciclo
-;$in[4]=$in[44] ;Pulsador marcha ciclo
-;$in[5]=$in[45] ;Pulsador paro ciclo
-;$in[6]=$in[42] ;Selector manual
-;$in[7]=$in[43] ;Selector automatico
-;$in[8]=$in[44] ;Borrado mensajes
-;$in[9]=$in[64] ;Termico cinta
-;$in[10]=$in[65] ;CP adelante CNC1
-;$in[11]=$in[62] ;Det parada cinta
-;$in[12]=$in[63] ;Det presencia pieza
-;$in[13]=$in[66] ;CP atras CNC1
-;$in[14]=$in[67] ;Plato abierto CNC1
-;$in[15]=$in[68] ;Plato cerrado CNC1
-;$in[16]=$in[69] ;Luneta abierta CNC1
-;$in[17]=$in[70] ;Luneta cerrada CNC1
-;$in[18]=$in[71] ;Permiso robot CNC1
-;$in[19]=$in[72] ;No alarma CNC1
-;$in[20]=$in[46] ;Aire OK
-;$in[21]=$in[46] ;Pinza 1 abierta
-;$in[22]=$in[46] ;Reserva
-;$in[23]=$in[46] ;Pinza 2 abierta
-;$in[24]=$in[46] ;Reserva
-;$in[25]=$in[73] ;Con robot CNC1
-;$in[26]=$in[74] ;Puerta abierta CNC1
-;$in[27]=$in[46] ;Reserva
-;$in[28]=$in[46]
-;$in[29]=$in[46]
+    $out[33]=$out[13] ;Abrir pinza 1
+    $out[34]=$out[14] ;Cerrar pinza 1
+    $out[35]=$out[15] ;Abrir pinza 2
+    $out[36]=$out[16] ;Cerrar pinza 2
+    $out[41]=$out[1] ;Marcha motor
+    $out[49]=$out[2] ;Marcha CNC1
+    $out[50]=$out[3] ;Robot dentro torno
+    $out[48]=$out[4] ;Piloto alarma
+    $out[46]=$out[5] ;Piloto paro
+    $out[45]=$out[6] ;Piloto marcha
+    ;$out[48]=$out[7] ;Robot fuera 
+    $out[52]=$out[8] ;Abrir plato CNC1
+    $out[53]=$out[9] ;Cerrar plato CNC1
+    $out[54]=$out[10] ;Avance CP CNC1
+    $out[55]=$out[11] ;Retroceso CP CNC1
+    $out[56]=$out[12] ;Abrir luneta CNC1
+    $out[57]=$out[17] ;Cerrar luneta CNC1
+    ;$out[48]=$out[18] ;Reserva
+    ;$out[48]=$out[19]
+    ;$out[48]=$out[20]
+    ;$out[48]=$out[21]
+    ;$out[48]=$out[22]
+    ;$out[48]=$out[23]
+    $out[81]=$in[69] ;envio pinza 1 abierta a PLC
+    $out[82]=$in[71] ;envio pinza 2 abierta a PLC
+    $out[83]=$in[70] ;envio aire OK a PLC
+
+
+
+    ;$in[1]=$in[46] ;Pulsador marcha cinta
+    ;$in[2]=$in[46] ;Reserva
+    ;$in[3]=$in[49] ;Pulsador fin ciclo
+    ;$in[4]=$in[44] ;Pulsador marcha ciclo
+    ;$in[5]=$in[45] ;Pulsador paro ciclo
+    ;$in[6]=$in[42] ;Selector manual
+    ;$in[7]=$in[43] ;Selector automatico
+    ;$in[8]=$in[44] ;Borrado mensajes
+    ;$in[9]=$in[64] ;Termico cinta
+    ;$in[10]=$in[65] ;CP adelante CNC1
+    ;$in[11]=$in[62] ;Det parada cinta
+    ;$in[12]=$in[63] ;Det presencia pieza
+    ;$in[13]=$in[66] ;CP atras CNC1
+    ;$in[14]=$in[67] ;Plato abierto CNC1
+    ;$in[15]=$in[68] ;Plato cerrado CNC1
+    ;$in[16]=$in[69] ;Luneta abierta CNC1
+    ;$in[17]=$in[70] ;Luneta cerrada CNC1
+    ;$in[18]=$in[71] ;Permiso robot CNC1
+    ;$in[19]=$in[72] ;No alarma CNC1
+    ;$in[20]=$in[46] ;Aire OK
+    ;$in[21]=$in[46] ;Pinza 1 abierta
+    ;$in[22]=$in[46] ;Reserva
+    ;$in[23]=$in[46] ;Pinza 2 abierta
+    ;$in[24]=$in[46] ;Reserva
+    ;$in[25]=$in[73] ;Con robot CNC1
+    ;$in[26]=$in[74] ;Puerta abierta CNC1
+    ;$in[27]=$in[46] ;Reserva
+    ;$in[28]=$in[46]
+    ;$in[29]=$in[46]
 
   ENDLOOP
-  ;FOLD ;%{H}
-  ;FOLD
+
+
 END
-;ENDFOLD
+
 
 DEF  RESET_OUT ( )
   INT N
