@@ -1,0 +1,21 @@
+DEFDAT palletTP PUBLIC
+;Pallet technology package vars
+;Customer: Erreka S.Coop
+;Programmer: Alexander Kalis - Tekniker
+;Project H118 - Erreka Smart Pal
+;Date: 26/05/2025
+
+;Global ENUMS
+GLOBAL  ENUM    E_SCREW_CATEGORY  Hex, Rod
+
+;Global classes
+GLOBAL  STRUC   S_ROBOT_CLASS     INT ID                              CHAR name[24],     BOOL isInPickPos     
+GLOBAL  STRUC   S_PALLET_CLASS    INT ID, MAX_PIECES,                 CHAR name[24],     BOOL isFull                                        REAL dimX, dimY, dimZ 
+GLOBAL  STRUC   S_SCREW_CLASS     INT ID,                             CHAR name[24],     SCREW_CATEGORY screwCategory                       REAL diameter, lenght, headWidth, threadDiameter, weight
+GLOBAL  STRUC   S_GRIPPER_CLASS   INT ID, openOutput, closeOutput     CHAR name[24],     BOOL isOpen, isClosed, isGripping, close, open     REAL weight
+
+
+
+
+
+ENDDAT
